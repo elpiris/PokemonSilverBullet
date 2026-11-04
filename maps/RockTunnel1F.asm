@@ -1,11 +1,26 @@
 	object_const_def
 	const ROCKTUNNEL1F_POKE_BALL1
 	const ROCKTUNNEL1F_POKE_BALL2
+	const ROCKTUNNEL1F_ZAPDOS
 
 RockTunnel1F_MapScripts:
 	def_scene_scripts
 
 	def_callbacks
+
+RockTunnel1FZapdos:
+	faceplayer
+	opentext
+	writetext RockTunnel1FZapdosText
+	cry ZAPDOS
+	pause 15
+	closetext
+	loadvar VAR_BATTLETYPE, BATTLETYPE_FORCEITEM
+	loadwildmon ZAPDOS, 50
+	startbattle
+	disappear ROCKTUNNEL1F_ZAPDOS
+	reloadmapafterbattle
+	end
 
 RockTunnel1FElixer:
 	itemball ELIXER
@@ -18,6 +33,10 @@ RockTunnel1FHiddenXAccuracy:
 
 RockTunnel1FHiddenXDefend:
 	hiddenitem THUNDERSTONE, EVENT_ROCK_TUNNEL_1F_HIDDEN_X_DEFEND
+
+RockTunnel1FZapdosText:
+	text "Gyaoo!"
+	done
 
 RockTunnel1F_MapEvents:
 	db 0, 0 ; filler
@@ -39,3 +58,4 @@ RockTunnel1F_MapEvents:
 	def_object_events
 	object_event  4, 18, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, RockTunnel1FElixer, EVENT_ROCK_TUNNEL_1F_ELIXER
 	object_event 10, 15, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, RockTunnel1FTMSteelWing, EVENT_ROCK_TUNNEL_1F_TM_STEEL_WING
+	object_event  4,  6, SPRITE_MOLTRES, SPRITEMOVEDATA_POKEMON, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, RockTunnel1FZapdos, EVENT_ROCK_TUNNEL_1F_ZAPDOS

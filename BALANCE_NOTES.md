@@ -214,6 +214,16 @@ Solving a Ruins of Alph wall puzzle now also earns a revived fossil Pokémon. A 
 
 Both chambers can be reached without Surf, so these gifts can come very early. That's fine because both evolve only at Lv40, so they stay modest until the mid-game. It also gives players a reason to solve the puzzles on their first visit. After a gift, the scientist points you to the other puzzle, or tells you to talk again if you've already solved it. A full party means the gift waits.
 
+### Legendary birds
+
+Each bird is a one-time static encounter at the end of a Kanto dungeon that had no prize, so the player can save first. They work like Lugia: talk to the bird and the fight starts. If it faints or you run, it's gone. The game has no overworld sprite for these birds, so they reuse `SPRITE_MOLTRES` with a different color.
+
+| Pokémon | Level | Where | Why |
+|---|---|---|---|
+| Zapdos | 50 | Rock Tunnel 1F, the dead-end northwest room | It's next to the Power Plant, and this is the farthest walkable spot from both entrances, reached through B1F |
+
+Lv50 matches the birds in Gen 1 and sits just under the Kanto leaders' target levels.
+
 ## To do
 
 Remaining work is tracked in [TODO.md](TODO.md).

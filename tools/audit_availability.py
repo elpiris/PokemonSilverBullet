@@ -51,6 +51,7 @@ SINGLE_SOURCES = [
     ("SQUIRTLE", KANTO, "Gift", "Oak, 16 badges"),
     ("KABUTO", BUGSY, "Gift", "Research Center, Kabuto puzzle"),
     ("OMANYTE", BUGSY, "Gift", "Research Center, Omanyte puzzle"),
+    ("ZAPDOS", KANTO, "Static", "Rock Tunnel 1F"),
     ("TOGEPI", BUGSY, "Gift", "Mystery Egg"), ("EEVEE", WHITNEY, "Gift", "Bill's family"),
     ("TYROGUE", CLAIR, "Gift", "Kiyo, Mt. Mortar"), ("SUDOWOODO", MORTY, "Static", "Route 36"),
     ("GYARADOS", PRYCE, "Static", "Lake of Rage"), ("LAPRAS", PRYCE, "Static", "Union Cave, Fridays"),

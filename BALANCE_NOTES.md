@@ -136,6 +136,28 @@ These use Gold's locations and levels, replacing common filler in Silver's table
 | Teddiursa | Route 45, night | Phanpy | 20 | 10% |
 | Mantine | Route 41, surfing | Tentacool | 20 | 10% |
 
+### Rare and late Pokémon
+
+Chances that were too low go up, and Pokémon that arrived too late move into Johto. Swarms and the original locations still work.
+
+| Pokémon | Where | Replaces | Level | Chance | Reason |
+|---|---|---|---|---|---|
+| Yanma | Route 35 | Pidgey, Hoothoot | 12 | 6% (was 1%) | Uncommon, without needing a swarm |
+| Dunsparce | Dark Cave, Violet side | Zubat | 4 | 5% (was 1%) | Stays a rare find |
+| Snubbull | Route 38 | Raticate | 16 | 31% (was 1%) | A normal catch for this route |
+| Marill | Mt. Mortar, outside | Rattata | 14 | 11% (was 1%) | An option before Pryce |
+| Miltank | Route 39 | Raticate | 15 | 35% (was 5%) | That route has few encounters, so it still takes some finding |
+| Chansey | Routes 13, 14, 15 | Hoppip, Quagsire, Skiploom | 25 | 5% (was 1%) | Blissey depends on it |
+| Skarmory | Route 42 | Flaaffy | 20 | 5% | Around gyms 5 and 6, where its typing isn't as oppressive. Route 45 keeps it |
+| Murkrow | Route 38, night | Meowth | 16 | 10% | Was Kanto only |
+| Slugma | Burned Tower 1F | Rattata | 15 | 20% | Fits the setting, and weak enough to be safe early |
+| Misdreavus | Burned Tower B1F, night | Rattata | 15 | 10% | Was Mt. Silver only |
+| Houndour | Route 44, night | Weepinbell | 22 | 5% | Evolves at 24, so late and rare keeps it in check |
+| Sneasel | Ice Path, all floors, morning and night | Zubat | 22-24 | 5% | Was Mt. Silver only |
+| Larvitar | Victory Road | Onix | 28 | 5% | Evolves at 30. Mt. Silver keeps it |
+| Qwilfish | Good Rod on Route 32 and maps sharing its table | Tentacool | 20 | 10% of bites | Was Super Rod only |
+| Remoraid | Good Rod on Route 44 and maps sharing its table | Poliwag | 20 | 10% of bites | Was Super Rod only |
+
 ## To do
 
 Remaining work is tracked in [TODO.md](TODO.md).

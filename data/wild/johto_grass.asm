@@ -287,7 +287,7 @@ JohtoGrassWildMons:
 	; morn
 	db 13, RATTATA
 	db 14, KOFFING
-	db 15, RATTATA
+	db 15, SLUGMA
 	db 14, ZUBAT
 	db 16, KOFFING
 	db 15, RATICATE
@@ -295,7 +295,7 @@ JohtoGrassWildMons:
 	; day
 	db 13, RATTATA
 	db 14, KOFFING
-	db 15, RATTATA
+	db 15, SLUGMA
 	db 14, ZUBAT
 	db 16, KOFFING
 	db 15, RATICATE
@@ -303,7 +303,7 @@ JohtoGrassWildMons:
 	; nite
 	db 13, RATTATA
 	db 14, KOFFING
-	db 15, RATTATA
+	db 15, SLUGMA
 	db 14, ZUBAT
 	db 16, KOFFING
 	db 15, RATICATE
@@ -332,7 +332,7 @@ JohtoGrassWildMons:
 	db 14, RATTATA
 	db 14, KOFFING
 	db 16, KOFFING
-	db 16, RATTATA
+	db 15, MISDREAVUS
 	db 15, ZUBAT
 	db 14, MAGMAR
 	db 14, MAGMAR
@@ -689,7 +689,7 @@ JohtoGrassWildMons:
 	db 13, ZUBAT
 	db 15, ZUBAT
 	db 14, MACHOP
-	db 14, RATTATA
+	db 14, MARILL
 	db 14, GEODUDE
 	db 16, RATTATA
 	db 15, MARILL
@@ -697,7 +697,7 @@ JohtoGrassWildMons:
 	db 13, ZUBAT
 	db 15, ZUBAT
 	db 14, MACHOP
-	db 14, RATTATA
+	db 14, MARILL
 	db 14, GEODUDE
 	db 16, RATTATA
 	db 15, MARILL
@@ -705,7 +705,7 @@ JohtoGrassWildMons:
 	db 13, ZUBAT
 	db 15, ZUBAT
 	db 14, MACHOP
-	db 14, RATTATA
+	db 14, MARILL
 	db 14, GEODUDE
 	db 16, RATTATA
 	db 15, MARILL
@@ -828,7 +828,7 @@ JohtoGrassWildMons:
 	db 22, GOLBAT
 	db 22, DELIBIRD
 	db 23, SWINUB
-	db 22, ZUBAT
+	db 22, SNEASEL
 	db 22, JYNX
 	db 22, JYNX
 	; day
@@ -844,7 +844,7 @@ JohtoGrassWildMons:
 	db 22, GOLBAT
 	db 22, DELIBIRD
 	db 23, SWINUB
-	db 22, ZUBAT
+	db 22, SNEASEL
 	db 22, JYNX
 	db 22, JYNX
 	ENDC
@@ -883,7 +883,7 @@ JohtoGrassWildMons:
 	db 22, GOLBAT
 	db 22, DELIBIRD
 	db 23, SWINUB
-	db 22, ZUBAT
+	db 22, SNEASEL
 	db 22, JYNX
 	db 22, JYNX
 	; day
@@ -899,7 +899,7 @@ JohtoGrassWildMons:
 	db 22, GOLBAT
 	db 22, DELIBIRD
 	db 23, SWINUB
-	db 22, ZUBAT
+	db 22, SNEASEL
 	db 22, JYNX
 	db 22, JYNX
 	ENDC
@@ -938,7 +938,7 @@ JohtoGrassWildMons:
 	db 23, GOLBAT
 	db 23, DELIBIRD
 	db 24, SWINUB
-	db 23, ZUBAT
+	db 23, SNEASEL
 	db 23, JYNX
 	db 23, JYNX
 	; day
@@ -954,7 +954,7 @@ JohtoGrassWildMons:
 	db 23, GOLBAT
 	db 23, DELIBIRD
 	db 24, SWINUB
-	db 23, ZUBAT
+	db 23, SNEASEL
 	db 23, JYNX
 	db 23, JYNX
 	ENDC
@@ -993,7 +993,7 @@ JohtoGrassWildMons:
 	db 23, GOLBAT
 	db 23, DELIBIRD
 	db 24, SWINUB
-	db 23, ZUBAT
+	db 23, SNEASEL
 	db 23, JYNX
 	db 23, JYNX
 	; day
@@ -1009,7 +1009,7 @@ JohtoGrassWildMons:
 	db 23, GOLBAT
 	db 23, DELIBIRD
 	db 24, SWINUB
-	db 23, ZUBAT
+	db 23, SNEASEL
 	db 23, JYNX
 	db 23, JYNX
 	ENDC
@@ -1048,7 +1048,7 @@ JohtoGrassWildMons:
 	db 24, GOLBAT
 	db 24, DELIBIRD
 	db 25, SWINUB
-	db 24, ZUBAT
+	db 24, SNEASEL
 	db 24, JYNX
 	db 24, JYNX
 	; day
@@ -1064,7 +1064,7 @@ JohtoGrassWildMons:
 	db 24, GOLBAT
 	db 24, DELIBIRD
 	db 25, SWINUB
-	db 24, ZUBAT
+	db 24, SNEASEL
 	db 24, JYNX
 	db 24, JYNX
 	ENDC
@@ -1522,7 +1522,7 @@ JohtoGrassWildMons:
 	db 2, GEODUDE
 	db 4, GEODUDE
 	db 3, ZUBAT
-	db 4, ZUBAT
+	db 4, DUNSPARCE
 	db 4, DUNSPARCE
 	; day
 	db 3, GEODUDE
@@ -1530,7 +1530,7 @@ JohtoGrassWildMons:
 	db 2, GEODUDE
 	db 4, GEODUDE
 	db 3, ZUBAT
-	db 4, ZUBAT
+	db 4, DUNSPARCE
 	db 4, DUNSPARCE
 	; nite
 	db 3, GEODUDE
@@ -1538,7 +1538,7 @@ JohtoGrassWildMons:
 	db 2, GEODUDE
 	db 4, GEODUDE
 	db 3, ZUBAT
-	db 4, ZUBAT
+	db 4, DUNSPARCE
 	db 4, DUNSPARCE
 	end_grass_wildmons
 
@@ -1879,7 +1879,7 @@ JohtoGrassWildMons:
 	db 12, NIDORAN_M
 	db 14, DROWZEE
 	db 10, ABRA
-	db 14, PIDGEY
+	db 12, YANMA
 	db 10, DITTO
 	db 12, YANMA
 	; day
@@ -1887,7 +1887,7 @@ JohtoGrassWildMons:
 	db 12, NIDORAN_M
 	db 14, DROWZEE
 	db 10, ABRA
-	db 14, PIDGEY
+	db 12, YANMA
 	db 10, DITTO
 	db 12, YANMA
 	; nite
@@ -1895,7 +1895,7 @@ JohtoGrassWildMons:
 	db 12, NIDORAN_M
 	db 14, DROWZEE
 	db 10, ABRA
-	db 14, HOOTHOOT
+	db 12, YANMA
 	db 10, DITTO
 	db 12, YANMA
 	ENDC
@@ -2041,7 +2041,7 @@ JohtoGrassWildMons:
 	ELIF DEF(_SILVER)
 	; morn
 	db 16, MEOWTH
-	db 16, RATICATE
+	db 16, SNUBBULL
 	db 16, MAGNEMITE
 	db 16, FARFETCH_D
 	db 13, MILTANK
@@ -2049,7 +2049,7 @@ JohtoGrassWildMons:
 	db 13, SNUBBULL
 	; day
 	db 16, MEOWTH
-	db 16, RATICATE
+	db 16, SNUBBULL
 	db 16, MAGNEMITE
 	db 16, FARFETCH_D
 	db 13, MILTANK
@@ -2057,9 +2057,9 @@ JohtoGrassWildMons:
 	db 13, SNUBBULL
 	; nite
 	db 16, MEOWTH
-	db 16, RATICATE
+	db 16, SNUBBULL
 	db 16, MAGNEMITE
-	db 16, MEOWTH
+	db 16, MURKROW
 	db 13, MILTANK
 	db 13, TAUROS
 	db 13, SNUBBULL
@@ -2097,7 +2097,7 @@ JohtoGrassWildMons:
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
 	; morn
 	db 16, MEOWTH
-	db 17, RATICATE
+	db 15, MILTANK
 	db 16, MAGNEMITE
 	db 16, FARFETCH_D
 	db 15, MILTANK
@@ -2105,7 +2105,7 @@ JohtoGrassWildMons:
 	db 15, TAUROS
 	; day
 	db 16, MEOWTH
-	db 17, RATICATE
+	db 15, MILTANK
 	db 16, MAGNEMITE
 	db 16, FARFETCH_D
 	db 15, MILTANK
@@ -2113,7 +2113,7 @@ JohtoGrassWildMons:
 	db 15, TAUROS
 	; nite
 	db 16, MEOWTH
-	db 17, RATICATE
+	db 15, MILTANK
 	db 16, MAGNEMITE
 	db 16, MEOWTH
 	db 15, MILTANK
@@ -2156,24 +2156,24 @@ JohtoGrassWildMons:
 	db 15, MANKEY
 	db 16, SPEAROW
 	db 15, FLAAFFY
-	db 17, FLAAFFY
-	db 17, FLAAFFY
+	db 20, SKARMORY
+	db 20, SKARMORY
 	; day
 	db 13, MAREEP
 	db 14, SPEAROW
 	db 15, MANKEY
 	db 16, SPEAROW
 	db 15, FLAAFFY
-	db 17, FLAAFFY
-	db 17, FLAAFFY
+	db 20, SKARMORY
+	db 20, SKARMORY
 	; nite
 	db 13, MAREEP
 	db 14, ZUBAT
 	db 15, MANKEY
 	db 16, ZUBAT
 	db 15, FLAAFFY
-	db 17, FLAAFFY
-	db 17, FLAAFFY
+	db 20, SKARMORY
+	db 20, SKARMORY
 	ENDC
 	end_grass_wildmons
 
@@ -2228,7 +2228,7 @@ JohtoGrassWildMons:
 	db 22, WEEPINBELL
 	db 22, BELLSPROUT
 	db 24, LICKITUNG
-	db 24, WEEPINBELL
+	db 22, HOUNDOUR
 	db 26, LICKITUNG
 	db 26, LICKITUNG
 	end_grass_wildmons

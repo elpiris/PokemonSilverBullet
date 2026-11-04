@@ -174,7 +174,7 @@ KantoGrassWildMons:
 	db 32, GOLBAT
 	db 33, DONPHAN
 	db 34, ONIX
-	db 36, ONIX
+	db 28, LARVITAR
 	db 35, RHYHORN
 	db 35, RHYHORN
 	; day
@@ -182,7 +182,7 @@ KantoGrassWildMons:
 	db 32, GOLBAT
 	db 33, DONPHAN
 	db 34, ONIX
-	db 36, ONIX
+	db 28, LARVITAR
 	db 35, RHYHORN
 	db 35, RHYHORN
 	; nite
@@ -190,7 +190,7 @@ KantoGrassWildMons:
 	db 32, GOLBAT
 	db 33, DONPHAN
 	db 34, ONIX
-	db 36, ONIX
+	db 28, LARVITAR
 	db 35, RHYHORN
 	db 35, RHYHORN
 	ENDC
@@ -787,7 +787,7 @@ KantoGrassWildMons:
 	db 25, PIDGEOTTO
 	db 22, HOPPIP
 	db 24, HOPPIP
-	db 22, QUAGSIRE
+	db 25, CHANSEY
 	db 25, CHANSEY
 	; day
 	db 23, NIDORINO
@@ -795,7 +795,7 @@ KantoGrassWildMons:
 	db 25, PIDGEOTTO
 	db 22, HOPPIP
 	db 24, HOPPIP
-	db 24, HOPPIP
+	db 25, CHANSEY
 	db 25, CHANSEY
 	; nite
 	db 23, NIDORINO
@@ -803,7 +803,7 @@ KantoGrassWildMons:
 	db 25, NOCTOWL
 	db 22, QUAGSIRE
 	db 24, QUAGSIRE
-	db 24, QUAGSIRE
+	db 25, CHANSEY
 	db 25, CHANSEY
 	ENDC
 	end_grass_wildmons
@@ -842,7 +842,7 @@ KantoGrassWildMons:
 	db 25, PIDGEOTTO
 	db 24, HOPPIP
 	db 26, SKIPLOOM
-	db 22, QUAGSIRE
+	db 25, CHANSEY
 	db 25, CHANSEY
 	; day
 	db 23, NIDORINO
@@ -850,7 +850,7 @@ KantoGrassWildMons:
 	db 25, PIDGEOTTO
 	db 24, HOPPIP
 	db 26, SKIPLOOM
-	db 26, SKIPLOOM
+	db 25, CHANSEY
 	db 25, CHANSEY
 	; nite
 	db 23, NIDORINO
@@ -858,7 +858,7 @@ KantoGrassWildMons:
 	db 25, NOCTOWL
 	db 22, QUAGSIRE
 	db 24, QUAGSIRE
-	db 24, QUAGSIRE
+	db 25, CHANSEY
 	db 25, CHANSEY
 	ENDC
 	end_grass_wildmons
@@ -897,7 +897,7 @@ KantoGrassWildMons:
 	db 25, PIDGEOTTO
 	db 22, HOPPIP
 	db 24, HOPPIP
-	db 22, QUAGSIRE
+	db 25, CHANSEY
 	db 25, CHANSEY
 	; day
 	db 23, NIDORINO
@@ -905,7 +905,7 @@ KantoGrassWildMons:
 	db 25, PIDGEOTTO
 	db 22, HOPPIP
 	db 24, HOPPIP
-	db 24, HOPPIP
+	db 25, CHANSEY
 	db 25, CHANSEY
 	; nite
 	db 23, NIDORINO
@@ -913,7 +913,7 @@ KantoGrassWildMons:
 	db 25, NOCTOWL
 	db 22, QUAGSIRE
 	db 24, QUAGSIRE
-	db 24, QUAGSIRE
+	db 25, CHANSEY
 	db 25, CHANSEY
 	ENDC
 	end_grass_wildmons

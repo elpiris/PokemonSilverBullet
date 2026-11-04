@@ -1643,7 +1643,7 @@ JohtoGrassWildMons:
 	db 5, KAKUNA
 	db 5, KAKUNA
 	; nite
-	db 2, HOOTHOOT
+	db 3, SPINARAK
 	db 3, RATTATA
 	db 4, HOOTHOOT
 	db 4, RATTATA
@@ -1698,7 +1698,7 @@ JohtoGrassWildMons:
 	db 6, KAKUNA
 	db 6, KAKUNA
 	; nite
-	db 3, HOOTHOOT
+	db 4, SPINARAK
 	db 4, RATTATA
 	db 3, BELLSPROUT
 	db 5, RATTATA
@@ -1988,7 +1988,7 @@ JohtoGrassWildMons:
 	db 13, LEDYBA
 	db 15, STANTLER
 	db 15, PIDGEY
-	db 14, VULPIX
+	db 14, GROWLITHE
 	db 15, LEDYBA
 	db 15, LEDYBA
 	db 15, LEDYBA
@@ -1996,15 +1996,15 @@ JohtoGrassWildMons:
 	db 13, PIDGEY
 	db 15, STANTLER
 	db 15, PIDGEY
-	db 14, VULPIX
+	db 14, GROWLITHE
 	db 15, PIDGEOTTO
-	db 16, VULPIX
-	db 16, VULPIX
+	db 16, GROWLITHE
+	db 16, GROWLITHE
 	; nite
-	db 13, HOOTHOOT
+	db 13, SPINARAK
 	db 15, STANTLER
 	db 15, HOOTHOOT
-	db 14, VULPIX
+	db 14, GROWLITHE
 	db 15, HOOTHOOT
 	db 15, HOOTHOOT
 	db 15, HOOTHOOT
@@ -2153,7 +2153,7 @@ JohtoGrassWildMons:
 	; morn
 	db 13, MAREEP
 	db 14, SPEAROW
-	db 15, MAREEP
+	db 15, MANKEY
 	db 16, SPEAROW
 	db 15, FLAAFFY
 	db 17, FLAAFFY
@@ -2161,7 +2161,7 @@ JohtoGrassWildMons:
 	; day
 	db 13, MAREEP
 	db 14, SPEAROW
-	db 15, MAREEP
+	db 15, MANKEY
 	db 16, SPEAROW
 	db 15, FLAAFFY
 	db 17, FLAAFFY
@@ -2169,7 +2169,7 @@ JohtoGrassWildMons:
 	; nite
 	db 13, MAREEP
 	db 14, ZUBAT
-	db 15, MAREEP
+	db 15, MANKEY
 	db 16, ZUBAT
 	db 15, FLAAFFY
 	db 17, FLAAFFY
@@ -2264,7 +2264,7 @@ JohtoGrassWildMons:
 	; morn
 	db 23, GEODUDE
 	db 23, GRAVELER
-	db 24, GRAVELER
+	db 24, GLIGAR
 	db 20, PHANPY
 	db 25, GRAVELER
 	db 27, SKARMORY
@@ -2272,7 +2272,7 @@ JohtoGrassWildMons:
 	; day
 	db 23, GEODUDE
 	db 23, GRAVELER
-	db 24, GRAVELER
+	db 24, GLIGAR
 	db 20, PHANPY
 	db 25, GRAVELER
 	db 27, SKARMORY
@@ -2280,8 +2280,8 @@ JohtoGrassWildMons:
 	; nite
 	db 23, GEODUDE
 	db 23, GRAVELER
-	db 24, GRAVELER
-	db 20, PHANPY
+	db 24, GLIGAR
+	db 20, TEDDIURSA
 	db 25, GRAVELER
 	db 27, SKARMORY
 	db 27, SKARMORY

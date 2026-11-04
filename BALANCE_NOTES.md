@@ -116,6 +116,26 @@ Bosses and Cooltrainers now also use `AI_TYPES`, the existing rule that favors s
 
 This applies to all Johto and Kanto leaders, the Elite Four, Lance, Cal, the rival, Red, Blue, and both Cooltrainer classes. It's set in `data/trainers/attributes.asm`. Other classes are unchanged, so early trainers like Youngsters and Bug Catchers stay simple.
 
+## Availability: all 251 on one save
+
+Goal: every Pokémon can be obtained on one Silver save, using data changes wherever possible. Rare Pokémon can stay rarer than others. `tools/audit_availability.py` generates `AVAILABILITY_AUDIT.md`.
+
+### Gold-only Pokémon
+
+These use Gold's locations and levels, replacing common filler in Silver's tables. Ariados, Primeape, and Ursaring evolve by level from these. Arcanine needs a Fire Stone.
+
+| Pokémon | Where | Replaces | Level | Chance |
+|---|---|---|---|---|
+| Spinarak | Route 30, night | Hoothoot | 3 | 30% |
+| Spinarak | Route 31, night | Hoothoot | 4 | 30% |
+| Spinarak | Route 37, night | Hoothoot | 13 | 30% |
+| Growlithe | Route 37, all day | Vulpix | 14 | 10% |
+| Growlithe | Route 37, daytime | Vulpix | 16 | 5% |
+| Mankey | Route 42, all day | Mareep | 15 | 20% |
+| Gligar | Route 45, all day | Graveler | 24 | 20% |
+| Teddiursa | Route 45, night | Phanpy | 20 | 10% |
+| Mantine | Route 41, surfing | Tentacool | 20 | 10% |
+
 ## To do
 
 Remaining work is tracked in [TODO.md](TODO.md).

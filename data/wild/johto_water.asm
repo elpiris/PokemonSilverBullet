@@ -176,7 +176,7 @@ JohtoWaterWildMons:
 	ELIF DEF(_SILVER)
 	db 20, TENTACOOL
 	db 20, TENTACRUEL
-	db 15, TENTACOOL
+	db 20, MANTINE
 	ENDC
 	end_water_wildmons
 

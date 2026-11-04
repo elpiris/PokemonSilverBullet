@@ -203,6 +203,17 @@ Prof. Oak gives them at Lv5, holding a Berry, one per conversation. The script i
 
 After each gift, he tells you to come back when you have the next badge count, so the player knows to return. If you already have enough badges, he tells you to talk to him again. A full party means the gift waits, and it doesn't hold up Mt. Silver.
 
+### Fossils
+
+Solving a Ruins of Alph wall puzzle now also earns a revived fossil Pokémon. A scientist in the Research Center gives it at Lv10, with no held item, one per conversation. The script is in `maps/RuinsOfAlphResearchCenter.asm`, using two new event flags, and the chambers themselves didn't change.
+
+| Puzzle solved | Pokémon |
+|---|---|
+| Kabuto chamber | Kabuto |
+| Omanyte chamber | Omanyte |
+
+Both chambers can be reached without Surf, so these gifts can come very early. That's fine because both evolve only at Lv40, so they stay modest until the mid-game. It also gives players a reason to solve the puzzles on their first visit. After a gift, the scientist points you to the other puzzle, or tells you to talk again if you've already solved it. A full party means the gift waits.
+
 ## To do
 
 Remaining work is tracked in [TODO.md](TODO.md).

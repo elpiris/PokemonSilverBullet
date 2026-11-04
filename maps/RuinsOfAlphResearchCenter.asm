@@ -100,6 +100,16 @@ RuinsOfAlphResearchCenterScientist1Script:
 RuinsOfAlphResearchCenterScientist2Script:
 	faceplayer
 	opentext
+	checkevent EVENT_SOLVED_KABUTO_PUZZLE
+	iffalse .CheckOmanyte
+	checkevent EVENT_GOT_KABUTO_FROM_RESEARCH_CENTER
+	iffalse .GiveKabuto
+.CheckOmanyte:
+	checkevent EVENT_SOLVED_OMANYTE_PUZZLE
+	iffalse .NoGift
+	checkevent EVENT_GOT_OMANYTE_FROM_RESEARCH_CENTER
+	iffalse .GiveOmanyte
+.NoGift:
 	checkevent EVENT_MADE_UNOWN_APPEAR_IN_RUINS
 	iftrue .UnownAppeared
 	writetext RuinsOfAlphResearchCenterScientist2Text
@@ -110,6 +120,59 @@ RuinsOfAlphResearchCenterScientist2Script:
 .UnownAppeared:
 	writetext RuinsOfAlphResearchCenterScientist2Text_UnownAppeared
 	waitbutton
+	closetext
+	end
+
+.GiveKabuto:
+	writetext RuinsOfAlphResearchCenterFossilGiftText
+	promptbutton
+	readvar VAR_PARTYCOUNT
+	ifequal PARTY_LENGTH, .PartyFull
+	getmonname STRING_BUFFER_3, KABUTO
+	writetext RuinsOfAlphResearchCenterReceivedFossilText
+	playsound SFX_CAUGHT_MON
+	waitsfx
+	promptbutton
+	givepoke KABUTO, 10
+	setevent EVENT_GOT_KABUTO_FROM_RESEARCH_CENTER
+	checkevent EVENT_GOT_OMANYTE_FROM_RESEARCH_CENTER
+	iftrue .Done
+	checkevent EVENT_SOLVED_OMANYTE_PUZZLE
+	iftrue .TalkAgain
+	sjump .OneMore
+
+.GiveOmanyte:
+	writetext RuinsOfAlphResearchCenterFossilGiftText
+	promptbutton
+	readvar VAR_PARTYCOUNT
+	ifequal PARTY_LENGTH, .PartyFull
+	getmonname STRING_BUFFER_3, OMANYTE
+	writetext RuinsOfAlphResearchCenterReceivedFossilText
+	playsound SFX_CAUGHT_MON
+	waitsfx
+	promptbutton
+	givepoke OMANYTE, 10
+	setevent EVENT_GOT_OMANYTE_FROM_RESEARCH_CENTER
+	checkevent EVENT_GOT_KABUTO_FROM_RESEARCH_CENTER
+	iftrue .Done
+	checkevent EVENT_SOLVED_KABUTO_PUZZLE
+	iftrue .TalkAgain
+.OneMore:
+	writetext RuinsOfAlphResearchCenterOneMoreFossilText
+	waitbutton
+	closetext
+	end
+
+.TalkAgain:
+	writetext RuinsOfAlphResearchCenterTalkAgainText
+	waitbutton
+	closetext
+	end
+
+.PartyFull:
+	writetext RuinsOfAlphResearchCenterFossilPartyFullText
+	waitbutton
+.Done:
 	closetext
 	end
 
@@ -273,6 +336,47 @@ RuinsOfAlphResearchCenterScientist2Text_UnownAppeared:
 	para "That must mean"
 	line "there are many"
 	cont "kinds of them…"
+	done
+
+RuinsOfAlphResearchCenterFossilGiftText:
+	text "You solved a wall"
+	line "puzzle? Amazing!"
+
+	para "It matches a"
+	line "fossil we dug up"
+	cont "and revived here."
+
+	para "Please take care"
+	line "of this #MON."
+	done
+
+RuinsOfAlphResearchCenterReceivedFossilText:
+	text "<PLAYER> received"
+	line "@"
+	text_ram wStringBuffer3
+	text "!"
+	done
+
+RuinsOfAlphResearchCenterOneMoreFossilText:
+	text "We revived one"
+	line "more #MON."
+
+	para "Solve another wall"
+	line "puzzle to get it!"
+	done
+
+RuinsOfAlphResearchCenterTalkAgainText:
+	text "We revived one"
+	line "more #MON."
+
+	para "Talk to me again!"
+	done
+
+RuinsOfAlphResearchCenterFossilPartyFullText:
+	text "But your party is"
+	line "full. Talk to me"
+	cont "again when you"
+	cont "have room."
 	done
 
 RuinsOfAlphResearchCenterComputerText:

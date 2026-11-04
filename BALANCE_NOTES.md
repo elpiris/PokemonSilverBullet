@@ -31,3 +31,21 @@ evolving, as in the vanilla trade, and is kept if the player cancels.
 
 - Up-Grade is expected to have no remaining use. The item and where it's found are unchanged.
 - `EVOLVE_TRADE` is no longer used by any Pokémon, but the engine still supports it.
+
+## Difficulty: Johto gym leaders
+
+Goal: an even climb with no plateaus. Chuck, Jasmine, and the Rocket Hideout can come in any order, and
+Pryce's gym only opens after the Hideout, so those three leaders stay close together.
+
+| Leader | Vanilla ace | New ace | Main changes and reason |
+|---|---|---|---|
+| Falkner | 9 | 10 | Adds Spearow, a real attacker, as a third Pokémon |
+| Bugsy | 16 | 17 | Metapod and Kakuna become Butterfree and Beedrill, since both evolve at Lv10. Scyther gains Pursuit |
+| Whitney | 20 | 20 | Adds Snubbull so the fight is less centered on Miltank. Attract → Growl removes the luck that made Rollout unfair. Clefairy: Mimic → Sing |
+| Morty | 25 | 26 | Misdreavus replaces Gastly. Lick replaces Mimic on Haunter. Gengar moves to the last slot |
+| Chuck | 30 | 32 | Grows from 2 to 4 Pokémon with Machoke and Hitmontop. Primeape: Rage → Low Kick |
+| Jasmine | 35 | 34 | Magnemites become Magneton and Skarmory, plus Forretress. Steelix: Sunny Day → Bind. Skarmory's Steel Wing is above its level on purpose |
+| Pryce | 31 | 36 | Dewgong, Cloyster, Jynx, Piloswine, so he's clearly above Jasmine. Piloswine: Mist → Take Down. Cloyster's Spike Cannon is above its level on purpose |
+| Clair | 40 | 41 | Adds Gyarados as a fifth Pokémon, since she's the last leader |
+
+Leader aces may be evolved below the player's evolution level (Morty's Gengar, Jasmine's Steelix, Clair's Kingdra).

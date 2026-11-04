@@ -15,14 +15,28 @@ OaksLabNoopScene: ; unreferenced
 Oak:
 	faceplayer
 	opentext
-	checkevent EVENT_OPENED_MT_SILVER
-	iftrue .CheckPokedex
 	checkevent EVENT_TALKED_TO_OAK_IN_KANTO
-	iftrue .CheckBadges
+	iftrue .CheckGifts
 	writetext OakWelcomeKantoText
 	promptbutton
 	setevent EVENT_TALKED_TO_OAK_IN_KANTO
-.CheckBadges:
+.CheckGifts:
+	checkevent EVENT_GOT_BULBASAUR_FROM_OAK
+	iffalse .GiveBulbasaur
+	checkevent EVENT_GOT_CHARMANDER_FROM_OAK
+	iftrue .CheckSquirtle
+	readvar VAR_BADGES
+	ifgreater 12 - 1, .GiveCharmander
+	sjump .CheckMtSilver
+
+.CheckSquirtle:
+	checkevent EVENT_GOT_SQUIRTLE_FROM_OAK
+	iftrue .CheckMtSilver
+	readvar VAR_BADGES
+	ifequal NUM_BADGES, .GiveSquirtle
+.CheckMtSilver:
+	checkevent EVENT_OPENED_MT_SILVER
+	iftrue .CheckPokedex
 	readvar VAR_BADGES
 	ifequal NUM_BADGES, .OpenMtSilver
 	ifequal NUM_JOHTO_BADGES, .Complain
@@ -53,6 +67,66 @@ Oak:
 	promptbutton
 	sjump .CheckPokedex
 
+.GiveBulbasaur:
+	writetext OakGiveBulbasaurText
+	promptbutton
+	readvar VAR_PARTYCOUNT
+	ifequal PARTY_LENGTH, .PartyFull
+	getmonname STRING_BUFFER_3, BULBASAUR
+	writetext OakReceivedStarterText
+	playsound SFX_CAUGHT_MON
+	waitsfx
+	promptbutton
+	givepoke BULBASAUR, 5, BERRY
+	setevent EVENT_GOT_BULBASAUR_FROM_OAK
+	readvar VAR_BADGES
+	ifgreater 12 - 1, .TalkAgain
+	writetext OakComeBackWith12BadgesText
+	promptbutton
+	sjump .CheckPokedex
+
+.GiveCharmander:
+	writetext OakGiveCharmanderText
+	promptbutton
+	readvar VAR_PARTYCOUNT
+	ifequal PARTY_LENGTH, .PartyFull
+	getmonname STRING_BUFFER_3, CHARMANDER
+	writetext OakReceivedStarterText
+	playsound SFX_CAUGHT_MON
+	waitsfx
+	promptbutton
+	givepoke CHARMANDER, 5, BERRY
+	setevent EVENT_GOT_CHARMANDER_FROM_OAK
+	readvar VAR_BADGES
+	ifequal NUM_BADGES, .TalkAgain
+	writetext OakComeBackWith16BadgesText
+	promptbutton
+	sjump .CheckPokedex
+
+.GiveSquirtle:
+	writetext OakGiveSquirtleText
+	promptbutton
+	readvar VAR_PARTYCOUNT
+	ifequal PARTY_LENGTH, .PartyFull
+	getmonname STRING_BUFFER_3, SQUIRTLE
+	writetext OakReceivedStarterText
+	playsound SFX_CAUGHT_MON
+	waitsfx
+	promptbutton
+	givepoke SQUIRTLE, 5, BERRY
+	setevent EVENT_GOT_SQUIRTLE_FROM_OAK
+	sjump .CheckMtSilver
+
+.TalkAgain:
+	writetext OakTalkAgainText
+	promptbutton
+	sjump .CheckPokedex
+
+.PartyFull:
+	writetext OakPartyFullText
+	promptbutton
+	sjump .CheckMtSilver
+
 OaksAssistant1Script:
 	jumptextfaceplayer OaksAssistant1Text
 
@@ -76,6 +150,73 @@ OaksLabTrashcan:
 
 OaksLabPC:
 	jumptext OaksLabPCText
+
+OakGiveBulbasaurText:
+	text "OAK: You came all"
+	line "the way to KANTO,"
+	cont "so I want you to"
+	cont "have a rare"
+	cont "#MON."
+	done
+
+OakGiveCharmanderText:
+	text "OAK: 12 BADGES!"
+	line "Well done!"
+
+	para "Here's the second"
+	line "#MON I kept for"
+	cont "you."
+	done
+
+OakGiveSquirtleText:
+	text "OAK: 16 BADGES!"
+	line "Astonishing!"
+
+	para "You've earned the"
+	line "last #MON I've"
+	cont "been keeping."
+	done
+
+OakReceivedStarterText:
+	text "<PLAYER> received"
+	line "@"
+	text_ram wStringBuffer3
+	text "!"
+	done
+
+OakComeBackWith12BadgesText:
+	text "Come back to see"
+	line "me when you've got"
+	cont "12 BADGES."
+
+	para "I'll have another"
+	line "#MON for you!"
+	done
+
+OakComeBackWith16BadgesText:
+	text "Come back to see"
+	line "me when you've got"
+	cont "16 BADGES."
+
+	para "I'll have one last"
+	line "#MON for you!"
+	done
+
+OakTalkAgainText:
+	text "You've already got"
+	line "so many BADGES!"
+
+	para "Talk to me again."
+	line "I have another"
+	cont "#MON for you."
+	done
+
+OakPartyFullText:
+	text "But your party is"
+	line "full. Talk to me"
+	cont "again when you"
+	cont "have room."
+	done
 
 OakWelcomeKantoText:
 	text "OAK: Ah, <PLAYER>!"

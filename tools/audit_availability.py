@@ -47,6 +47,8 @@ KINGS_ROCK_STAGE = PRYCE
 SINGLE_SOURCES = [
     ("CYNDAQUIL", FALKNER, "Starter", "Elm's Lab"), ("TOTODILE", FALKNER, "Starter", "Elm's Lab"),
     ("CHIKORITA", FALKNER, "Starter", "Elm's Lab"), ("SPEAROW", WHITNEY, "Gift", "Route 35 gate"),
+    ("BULBASAUR", KANTO, "Gift", "Oak"), ("CHARMANDER", KANTO, "Gift", "Oak, 12 badges"),
+    ("SQUIRTLE", KANTO, "Gift", "Oak, 16 badges"),
     ("TOGEPI", BUGSY, "Gift", "Mystery Egg"), ("EEVEE", WHITNEY, "Gift", "Bill's family"),
     ("TYROGUE", CLAIR, "Gift", "Kiyo, Mt. Mortar"), ("SUDOWOODO", MORTY, "Static", "Route 36"),
     ("GYARADOS", PRYCE, "Static", "Lake of Rage"), ("LAPRAS", PRYCE, "Static", "Union Cave, Fridays"),

@@ -191,6 +191,18 @@ Only one starter was available, and breeding can't produce the others. Both now 
 - **Elm:** after you've collected the S.S. Ticket, talking to him gives you the starter left on his table. It's Lv5, the same as your first one. A full party means you come back later.
 - **Rival:** Elm's gift brings the rival back to the lab window where you first met. They battle you with their Mt. Moon team, then hand over an Egg of the stolen starter. They keep their own Pokémon, so later fights still make sense. Losing lets you try again, and a full party means you come back for the Egg.
 
+### Kanto starters
+
+Prof. Oak gives them at Lv5, holding a Berry, one per conversation. The script is in `maps/OaksLab.asm`, using three new event flags.
+
+| When | Pokémon |
+|---|---|
+| First time you talk to him | Bulbasaur |
+| 12 badges | Charmander |
+| 16 badges | Squirtle, alongside opening Mt. Silver |
+
+After each gift, he tells you to come back when you have the next badge count, so the player knows to return. If you already have enough badges, he tells you to talk to him again. A full party means the gift waits, and it doesn't hold up Mt. Silver.
+
 ## To do
 
 Remaining work is tracked in [TODO.md](TODO.md).

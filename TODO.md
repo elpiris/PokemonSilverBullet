@@ -4,11 +4,11 @@ The current plan, in order. Each topic is proposed and approved before any game 
 
 ## 1. Catchable Pokémon and better Gen 2 availability
 
-Goal: all 251 on one save, with as few code changes as possible. Done so far: Gold-only Pokémon, rare and late Pokémon, evolution stones, Johto starters, Kanto starters, fossils, and Zapdos.
+Goal: all 251 on one save, with as few code changes as possible. Done so far: Gold-only Pokémon, rare and late Pokémon, evolution stones, Johto starters, Kanto starters, fossils, Zapdos, and Moltres.
 
 Still to propose, one at a time:
 
-- Articuno and Moltres, as static final prizes in Kanto dungeons that have none.
+- Articuno, as a static final prize in a Kanto dungeon that has none.
 - Mewtwo, Mew, and Celebi, as static final prizes in the late game.
 
 Also open:
@@ -48,4 +48,4 @@ Only booting has been confirmed so far. These still need testing in-game:
 - The boss AI change.
 - The starter gifts from Elm and Oak, and the New Bark Town rival fight.
 - The fossil gifts in the Research Center.
-- The static Zapdos in Rock Tunnel.
+- The static Zapdos in Rock Tunnel, and Moltres in Victory Road after the league.

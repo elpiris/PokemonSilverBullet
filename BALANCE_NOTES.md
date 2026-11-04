@@ -221,6 +221,7 @@ Each bird is a one-time static encounter at the end of a Kanto dungeon that had 
 | Pokémon | Level | Where | Why |
 |---|---|---|---|
 | Zapdos | 50 | Rock Tunnel 1F, the dead-end northwest room | It's next to the Power Plant, and this is the farthest walkable spot from both entrances, reached through B1F |
+| Moltres | 50 | Victory Road, the dead-end side room near the Route 23 exit | It's its Gen 1 home. It only appears after you beat the Elite Four, so it stays a post-league prize even though you walk through Victory Road before the league |
 
 Lv50 matches the birds in Gen 1 and sits just under the Kanto leaders' target levels.
 

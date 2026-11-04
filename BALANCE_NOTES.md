@@ -76,6 +76,40 @@ The Cherrygrove and Azalea rival fights are unchanged. The rest now climb with t
 | Karen | 47 | 50 | Gengar: Lick and Spite → Shadow Ball and Night Shade |
 | Lance | 50 | 52 | Two Dragonite: Twister → DragonBreath |
 
+## Difficulty: regular trainers
+
+A quick pass, levels only: species and fixed movesets are unchanged, so some trainers now have Pokémon past their usual evolution level. Trainers are still below the next boss, but the gap is smaller. Each area gets a level bonus, and a cap keeps it under that boss. A level already above the cap stays as it is.
+
+| Area | Bonus | Cap | Next boss ace |
+|---|---|---|---|
+| Routes 30 and 31 | +1 | | Falkner 10 |
+| Sprout Tower | 1F and 2F +2, 3F +1 | 3F 9 | Falkner 10 |
+| Violet Gym | none | | Falkner 10 |
+| Route 32, Union Cave 1F, Route 33, Slowpoke Well | +2 | 12 to 16 | Bugsy 17 |
+| Azalea Gym | +1 | 14 | Bugsy 17 |
+| Route 34, Goldenrod Underground, Route 35, National Park | +3 | 15 to 19 | Whitney 20 |
+| Goldenrod Gym | +1 | 19 | Whitney 20 |
+| Routes 36 and 37, Dance Theater, Burned Tower | +5 | 22 | Morty 26 |
+| Ecruteak Gym | +3 | 25 | Morty 26 |
+| Routes 38 to 41, Olivine Lighthouse | +7 to +8 | 28 to 30 | Chuck 32, Jasmine 34 |
+| Cianwood Gym | +3 | 30 | Chuck 32 |
+| Routes 42 and 43 | +11 | 30 | Pryce 36 |
+| Rocket Hideout | +5 | 29 | Executives 30 |
+| Lake of Rage, Union Cave lower floors | +3 | 30 to 31 | Pryce 36 |
+| Mahogany Gym | +6 | 34 | Pryce 36 |
+| Radio Tower, Goldenrod Underground rooms | +10 | 35 to 36 | Executives 38, boss 39 |
+| Routes 44 and 45 | +10 to +11 | 38 to 39 | Clair 41 |
+| Blackthorn Gym | +1 | 38 | Clair 41 |
+| Routes 26 and 27 | +6 | 42 | Will 44 |
+| Kanto routes, Fast Ship | +10 | 45 to 48 | Kanto leaders |
+
+Other cases:
+
+- Phone rematches go up with their level: +2 up to Lv12, +4 up to Lv20, +6 up to Lv30, and +8 above that.
+- The Route 34 Cooltrainers and Ruins of Alph trainers get +2, and Kiyo in Mt. Mortar gets +2.
+- Unchanged: Route 46, the Kanto gyms (these stay with their leaders until the Kanto to-do), Trainer House, and unused parties.
+- Until the Kanto leaders are done, some Kanto route trainers (up to Lv48) are above vanilla leaders such as Janine (39).
+
 ## To do
 
 Agreed direction, not applied yet:
@@ -83,4 +117,6 @@ Agreed direction, not applied yet:
 - Kanto leaders, target aces: Janine, Brock, and Lt. Surge 54, Erika 55, Misty and Sabrina 56, Blaine 58.
 - Later rival fights, target aces: Mt. Moon 53 and Indigo Plateau 60. Consider fixing the `RIVAL2` DV bug in `data/trainers/dvs.asm`.
 - Blue at 64 and Red at 75 (vanilla 58 and 81). Red's level is still open.
-- Regular trainers and wild Pokémon, to be adapted to the new curve. Until then, the Mt. Moon and Indigo rivals (ace 50) sit below Lance.
+- Wild Pokémon, to be adapted to the new curve.
+- Kanto gym trainers, along with the Kanto leaders.
+- Until then, the Mt. Moon and Indigo rivals (ace 50) sit below Lance.

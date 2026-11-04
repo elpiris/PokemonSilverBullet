@@ -1,29 +1,34 @@
-# Pokémon Gold and Silver [![Build Status][ci-badge]][ci]
+# Pokémon Silver Bullet
 
-This is a disassembly of Pokémon Gold and Pokémon Silver.
+A balance hack of Pokémon Silver that keeps the original game's feel and fixes its best-known flaws: trade-only evolutions and an uneven level curve. The goal is a challenge that climbs steadily from the first gym to the final battle against Red, with every Pokémon obtainable on one cartridge.
 
-It builds the following ROMs:
+It's built on [pret/pokegold](https://github.com/pret/pokegold), a disassembly of Pokémon Gold and Silver. Gen 2's type-based physical/special split stays as it was.
 
-- Pokemon - Gold Version (UE) [C][!].gbc `sha1: d8b8a3600a465308c9953dfa04f0081c05bdcb94`
-- Pokemon - Silver Version (UE) [C][!].gbc `sha1: 49b163f7e57702bc939d642a18f591de55d92dae`
-- mons2_gld_ps3_debug.bin `sha1: 53783c57378122805c5b4859d19e1a224f02a1ed`
-- mons2_slv_ps3_debug.bin `sha1: 4c2fafebdbc7551f4cd3f348bdd17e420b93b6e7`
-- DMGAAUP0.J56.patch `sha1: b8253b915ade89c784c71adfdb11cf60bc1f7b59`
-- DMGAAXP0.J57.patch `sha1: a38c0dec807e8a9e3626a0ec0fdf96bfb795ef3a`
+No ROMs are included. You build one yourself from this source.
 
-To set up the repository, see [INSTALL.md](INSTALL.md).
+## What's changed so far
 
+- **No trade evolutions:** every trade evolution now happens by level. Slowking needs a held King's Rock at Lv37, so Slowpoke's choice between Slowbro and Slowking stays with the player.
+- **Johto bosses:** gym leaders, rival fights, Rocket executives, the Elite Four, and Lance have new levels, teams, and moves, so the challenge climbs with the story.
+- **Regular trainers:** levels are raised by area to sit closer to the next boss. Species and movesets aren't updated yet, so some Pokémon are past their usual evolution level.
+- **Battle AI:** bosses and Cooltrainers now favor super effective moves.
 
-## See also
+Kanto is unfinished: its leaders still have their original teams.
 
-- [**Symbols**][symbols]
-- [**Tools**][tools]
+Most of this hasn't been playtested yet. See [BALANCE_NOTES.md](BALANCE_NOTES.md) for every change and the reason for it, and [TODO.md](TODO.md) for what's next.
 
-You can find us on [Discord (pret, #pokecrystal)](https://discord.gg/d5dubZ3).
+## Building
 
-For other pret projects, see [pret.github.io](https://pret.github.io/).
+Follow [INSTALL.md](INSTALL.md) to set up RGBDS, then run:
 
-[symbols]: https://github.com/pret/pokegold/tree/symbols
-[tools]: https://github.com/pret/gb-asm-tools
-[ci]: https://github.com/pret/pokegold/actions
-[ci-badge]: https://github.com/pret/pokegold/actions/workflows/main.yml/badge.svg
+```bash
+make silver
+```
+
+This produces `pokesilver.gbc`. Only the Silver build has been checked. The hashes in `roms.sha1` are for the unmodified games, so they won't match this hack.
+
+## Credits
+
+The disassembly is the work of the [pret](https://pret.github.io/) team and contributors.
+
+This is an unofficial fan project, not affiliated with or endorsed by Nintendo, Game Freak, or The Pokémon Company.

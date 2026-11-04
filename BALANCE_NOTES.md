@@ -118,11 +118,4 @@ This applies to all Johto and Kanto leaders, the Elite Four, Lance, Cal, the riv
 
 ## To do
 
-Agreed direction, not applied yet:
-
-- Kanto leaders, target aces: Janine, Brock, and Lt. Surge 54, Erika 55, Misty and Sabrina 56, Blaine 58.
-- Later rival fights, target aces: Mt. Moon 53 and Indigo Plateau 60. Consider fixing the `RIVAL2` DV bug in `data/trainers/dvs.asm`.
-- Blue at 64 and Red at 75 (vanilla 58 and 81). Red's level is still open.
-- Wild Pokémon, to be adapted to the new curve.
-- Kanto gym trainers, along with the Kanto leaders.
-- Until then, the Mt. Moon and Indigo rivals (ace 50) sit below Lance.
+Remaining work is tracked in [TODO.md](TODO.md).

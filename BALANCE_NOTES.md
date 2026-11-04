@@ -65,3 +65,22 @@ The Cherrygrove and Azalea rival fights are unchanged. The rest now climb with t
 | Radio Tower, female executive | 32 | 38 | Levels only |
 | Radio Tower, Rocket boss | 35 | 39 | Houndour → Houndoom and Koffing → Weezing, as both are past their evolution levels |
 | Rival, Victory Road | 38 | 42 | Haunter → Gengar, Kadabra → Alakazam, following the new evolution levels. Starters get Giga Drain, Flamethrower, or Surf so they feel like aces |
+
+## Difficulty: Elite Four and Lance
+
+| Fight | Vanilla ace | New ace | Main changes and reason |
+|---|---|---|---|
+| Will | 42 | 44 | Girafarig replaces the first of two Xatu |
+| Koga | 44 | 46 | Levels only, as his fight already works |
+| Bruno | 46 | 48 | Onix → Steelix, past its new evolution level and a cover for Fighting's weaknesses |
+| Karen | 47 | 50 | Gengar: Lick and Spite → Shadow Ball and Night Shade |
+| Lance | 50 | 52 | Two Dragonite: Twister → DragonBreath |
+
+## To do
+
+Agreed direction, not applied yet:
+
+- Kanto leaders, target aces: Janine, Brock, and Lt. Surge 54, Erika 55, Misty and Sabrina 56, Blaine 58.
+- Later rival fights, target aces: Mt. Moon 53 and Indigo Plateau 60. Consider fixing the `RIVAL2` DV bug in `data/trainers/dvs.asm`.
+- Blue at 64 and Red at 75 (vanilla 58 and 81). Red's level is still open.
+- Regular trainers and wild Pokémon, to be adapted to the new curve. Until then, the Mt. Moon and Indigo rivals (ace 50) sit below Lance.

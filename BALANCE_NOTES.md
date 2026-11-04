@@ -110,6 +110,12 @@ Other cases:
 - Unchanged: Route 46, the Kanto gyms (these stay with their leaders until the Kanto to-do), Trainer House, and unused parties.
 - Until the Kanto leaders are done, some Kanto route trainers (up to Lv48) are above vanilla leaders such as Janine (39).
 
+## Difficulty: battle AI
+
+Bosses and Cooltrainers now also use `AI_TYPES`, the existing rule that favors super effective moves and avoids resisted ones when another attack type is available. They already avoided their weaker attacks, but their best attack only tied with their status moves, so they could pick a status move over a super effective hit.
+
+This applies to all Johto and Kanto leaders, the Elite Four, Lance, Cal, the rival, Red, Blue, and both Cooltrainer classes. It's set in `data/trainers/attributes.asm`. Other classes are unchanged, so early trainers like Youngsters and Bug Catchers stay simple.
+
 ## To do
 
 Agreed direction, not applied yet:

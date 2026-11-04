@@ -87,6 +87,9 @@ EvolveAfterBattle_MasterLoop:
 	cp EVOLVE_HAPPINESS
 	jr z, .happiness
 
+	cp EVOLVE_KINGS_ROCK
+	jp z, .kings_rock
+
 ; EVOLVE_STAT
 	ld a, [wTempMonLevel]
 	cp [hl]
@@ -327,6 +330,21 @@ EvolveAfterBattle_MasterLoop:
 .dont_evolve_3
 	inc hl
 	jp .loop
+
+.kings_rock
+	ld a, [hli]
+	ld b, a
+	ld a, [wTempMonLevel]
+	cp b
+	jp c, .dont_evolve_3
+
+	ld a, [wTempMonItem]
+	cp KINGS_ROCK
+	jp nz, .dont_evolve_3
+
+	xor a
+	ld [wTempMonItem], a
+	jp .proceed
 
 .UnusedReturnToMap: ; unreferenced
 	pop hl

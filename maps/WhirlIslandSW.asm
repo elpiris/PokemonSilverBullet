@@ -7,7 +7,7 @@ WhirlIslandSW_MapScripts:
 	def_callbacks
 
 WhirlIslandSWGuardSpec:
-	itemball GUARD_SPEC
+	itemball WATER_STONE
 
 WhirlIslandSW_MapEvents:
 	db 0, 0 ; filler

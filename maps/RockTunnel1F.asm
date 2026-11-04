@@ -17,7 +17,7 @@ RockTunnel1FHiddenXAccuracy:
 	hiddenitem X_ACCURACY, EVENT_ROCK_TUNNEL_1F_HIDDEN_X_ACCURACY
 
 RockTunnel1FHiddenXDefend:
-	hiddenitem X_DEFEND, EVENT_ROCK_TUNNEL_1F_HIDDEN_X_DEFEND
+	hiddenitem THUNDERSTONE, EVENT_ROCK_TUNNEL_1F_HIDDEN_X_DEFEND
 
 RockTunnel1F_MapEvents:
 	db 0, 0 ; filler

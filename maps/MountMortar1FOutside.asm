@@ -11,7 +11,7 @@ MountMortar1FOutsideEther:
 	itemball ETHER
 
 MountMortar1FOutsideGuardSpec:
-	itemball GUARD_SPEC
+	itemball MOON_STONE
 
 MountMortar1FOutsideHiddenHyperPotion:
 	hiddenitem HYPER_POTION, EVENT_MOUNT_MORTAR_1F_OUTSIDE_HIDDEN_HYPER_POTION

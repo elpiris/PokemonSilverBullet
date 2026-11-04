@@ -217,7 +217,7 @@ Route45FruitTree:
 	fruittree FRUITTREE_ROUTE_45
 
 Route45XSpecial:
-	itemball X_SPECIAL
+	itemball SUN_STONE
 
 Route45Revive:
 	itemball REVIVE

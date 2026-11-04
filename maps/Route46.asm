@@ -120,7 +120,7 @@ Route46Sign:
 	jumptext Route46SignText
 
 Route46DireHit:
-	itemball DIRE_HIT
+	itemball SUN_STONE
 
 Route46FruitTree1:
 	fruittree FRUITTREE_ROUTE_46_1

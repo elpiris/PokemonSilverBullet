@@ -158,6 +158,26 @@ Chances that were too low go up, and Pokémon that arrived too late move into Jo
 | Qwilfish | Good Rod on Route 32 and maps sharing its table | Tentacool | 20 | 10% of bites | Was Super Rod only |
 | Remoraid | Good Rod on Route 44 and maps sharing its table | Poliwag | 20 | 10% of bites | Was Super Rod only |
 
+### Evolution stones
+
+Fire, Water, Thunder, and Leaf Stones only came from Bill's grandfather in Kanto, one of each. Stones are now pickups in fitting places, replacing items players rarely use, so exploring gets you evolutions early. Anyone who misses one can buy it late.
+
+| Stone | Where | Replaces | Type |
+|---|---|---|---|
+| Leaf | Ilex Forest | Ether | Hidden |
+| Leaf | Route 2 | Dire Hit | Item ball |
+| Fire | Burned Tower 1F | X Speed | Item ball |
+| Fire | Victory Road | X Special | Item ball |
+| Water | Route 41 | Max Ether | Hidden |
+| Water | Whirl Islands SW | Guard Spec | Item ball |
+| Thunder | Rocket Hideout B1F | X Accuracy | Item ball |
+| Thunder | Rock Tunnel 1F | X Defend | Hidden |
+| Sun | Route 46 | Dire Hit | Item ball |
+| Sun | Route 45 | X Special | Item ball |
+| Moon | Mt. Mortar, outside | Guard Spec | Item ball |
+
+Celadon Dept. Store 4F now sells all six stones for ¥2100 each. The Moon Stone's price changed from ¥0 to ¥2100 so it isn't free there, which also means it can now be sold. Existing sources, such as Bill's grandfather and Tohjo Falls, are unchanged. Event names in the map scripts still mention the old items, which doesn't show in-game.
+
 ## To do
 
 Remaining work is tracked in [TODO.md](TODO.md).

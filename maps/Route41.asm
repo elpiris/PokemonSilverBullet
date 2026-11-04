@@ -129,7 +129,7 @@ Route41Rock: ; unreferenced
 	jumpstd SmashRockScript
 
 Route41HiddenMaxEther:
-	hiddenitem MAX_ETHER, EVENT_ROUTE_41_HIDDEN_MAX_ETHER
+	hiddenitem WATER_STONE, EVENT_ROUTE_41_HIDDEN_MAX_ETHER
 
 SwimmermCharlieSeenText:
 	text "The water's warm"

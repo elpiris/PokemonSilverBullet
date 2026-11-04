@@ -4,8 +4,18 @@ The current plan, in order. Each topic is proposed and approved before any game 
 
 ## 1. Catchable Pokémon and better Gen 2 availability
 
-- Make sure every Pokémon can be caught on one Silver cartridge.
-- Make Gen 2 Pokémon more available in general.
+Goal: all 251 on one save, with as few code changes as possible. Done so far: Gold-only Pokémon, rare and late Pokémon, and evolution stones.
+
+Still to propose, one at a time:
+
+- Johto starters you didn't pick.
+- Kanto starters.
+- Fossils.
+- Articuno, Zapdos, and Moltres, as static final prizes in Kanto dungeons that have none.
+- Mewtwo, Mew, and Celebi, as static final prizes in the late game.
+
+Also open:
+
 - Wild Pokémon levels haven't been adapted to the new curve yet, so decide whether to handle them here.
 
 ## 2. Trainer evolutions and movesets

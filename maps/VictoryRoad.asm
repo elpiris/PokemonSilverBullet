@@ -107,7 +107,7 @@ VictoryRoadFullHeal:
 	itemball FULL_HEAL
 
 VictoryRoadXSpecial:
-	itemball X_SPECIAL
+	itemball FIRE_STONE
 
 VictoryRoadHiddenMaxPotion:
 	hiddenitem MAX_POTION, EVENT_VICTORY_ROAD_HIDDEN_MAX_POTION

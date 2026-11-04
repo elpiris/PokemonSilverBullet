@@ -160,21 +160,21 @@ None
 | 28 | SANDSLASH | Before Whitney | Evolve SANDSHREW | - | Yes |
 | 29 | NIDORAN_F | Before Whitney | Grass | Before Whitney: 30%, Grass, ROUTE_35 | Yes |
 | 30 | NIDORINA | Before Whitney | Evolve NIDORAN_F | Kanto: 30%, Grass, ROUTE_13 | Yes |
-| 31 | NIDOQUEEN | Before Elite Four | Evolve NIDORINA | - | Yes |
+| 31 | NIDOQUEEN | Before Pryce | Evolve NIDORINA | - | Yes |
 | 32 | NIDORAN_M | Before Whitney | Grass | Before Whitney: 30%, Grass, ROUTE_35 | Yes |
 | 33 | NIDORINO | Before Whitney | Evolve NIDORAN_M | Kanto: 30%, Grass, ROUTE_13 | Yes |
-| 34 | NIDOKING | Before Elite Four | Evolve NIDORINO | - | Yes |
+| 34 | NIDOKING | Before Pryce | Evolve NIDORINO | - | Yes |
 | 35 | CLEFAIRY | Kanto | Grass | Kanto: 5%, Grass, MOUNT_MOON | Yes |
 | 36 | CLEFABLE | Kanto | Evolve CLEFAIRY | - | Yes |
 | 37 | VULPIX | Before Morty | Grass | Before Morty: 15%, Grass, ROUTE_36 | Yes |
-| 38 | NINETALES | Kanto | Evolve VULPIX | - | Yes |
+| 38 | NINETALES | Before Morty | Evolve VULPIX | - | Yes |
 | 39 | JIGGLYPUFF | Before Falkner | Grass | Before Falkner: 5%, Grass, ROUTE_46 | Yes |
-| 40 | WIGGLYTUFF | Before Elite Four | Evolve JIGGLYPUFF | - | Yes |
+| 40 | WIGGLYTUFF | Before Pryce | Evolve JIGGLYPUFF | - | Yes |
 | 41 | ZUBAT | Before Falkner | Grass | Before Falkner: 35%, Grass, DARK_CAVE_VIOLET_ENTRANCE | Yes |
 | 42 | GOLBAT | Before Falkner | Evolve ZUBAT | Before Pryce: 20%, Grass, UNION_CAVE_B2F | Yes |
 | 43 | ODDISH | Before Whitney | Grass | Before Whitney: 60%, Grass, ILEX_FOREST | Yes |
 | 44 | GLOOM | Before Whitney | Evolve ODDISH | Kanto: 10%, Grass, ROUTE_5 | Yes |
-| 45 | VILEPLUME | Kanto | Evolve GLOOM | - | Yes |
+| 45 | VILEPLUME | Before Whitney | Evolve GLOOM | - | Yes |
 | 46 | PARAS | Before Whitney | Grass | Before Whitney: 15%, Grass, ILEX_FOREST | Yes |
 | 47 | PARASECT | Before Whitney | Evolve PARAS | - | Yes |
 | 48 | VENONAT | Before Whitney | Bug Contest | Before Whitney: 10%, Bug Contest, National Park | Yes |
@@ -188,10 +188,10 @@ None
 | 56 | MANKEY | Before Pryce | Grass | Before Pryce: 20%, Grass, ROUTE_42 | Yes |
 | 57 | PRIMEAPE | Before Pryce | Evolve MANKEY | - | Yes |
 | 58 | GROWLITHE | Before Morty | Grass | Before Morty: 15%, Grass, ROUTE_37 | Yes |
-| 59 | ARCANINE | Kanto | Evolve GROWLITHE | - | Yes |
+| 59 | ARCANINE | Before Morty | Evolve GROWLITHE | - | Yes |
 | 60 | POLIWAG | Before Bugsy | Fish (Old Rod) | Before Bugsy: 15%, Fish (Old Rod), VIOLET_CITY | Yes |
 | 61 | POLIWHIRL | Before Bugsy | Evolve POLIWAG | Before Pryce: 10%, Surf, ROUTE_30 | Yes |
-| 62 | POLIWRATH | Kanto | Evolve POLIWHIRL | - | Yes |
+| 62 | POLIWRATH | Before Pryce | Evolve POLIWHIRL | - | Yes |
 | 63 | ABRA | Before Whitney | Grass | Before Whitney: 10%, Grass, ROUTE_34 | Yes |
 | 64 | KADABRA | Before Whitney | Evolve ABRA | Kanto: 5%, Grass, ROUTE_8 | Yes |
 | 65 | ALAKAZAM | Before Whitney | Evolve KADABRA | - | Yes |
@@ -200,7 +200,7 @@ None
 | 68 | MACHAMP | Before Whitney | Evolve MACHOKE | - | Yes |
 | 69 | BELLSPROUT | Before Falkner | Grass | Before Falkner: 20%, Grass, ROUTE_31 | Yes |
 | 70 | WEEPINBELL | Before Falkner | Evolve BELLSPROUT | Before Pryce: 35%, Grass, ROUTE_44 | Yes |
-| 71 | VICTREEBEL | Kanto | Evolve WEEPINBELL | - | Yes |
+| 71 | VICTREEBEL | Before Whitney | Evolve WEEPINBELL | - | Yes |
 | 72 | TENTACOOL | Before Bugsy | Fish (Old Rod) | Before Bugsy: 15%, Fish (Old Rod), NEW_BARK_TOWN | Yes |
 | 73 | TENTACRUEL | Before Bugsy | Evolve TENTACOOL | Before Pryce: 30%, Surf, ROUTE_41 | Yes |
 | 74 | GEODUDE | Before Falkner | Grass | Before Falkner: 60%, Grass, DARK_CAVE_VIOLET_ENTRANCE | Yes |
@@ -220,7 +220,7 @@ None
 | 88 | GRIMER | Kanto | Surf | Kanto: 90%, Surf, CELADON_CITY | Yes |
 | 89 | MUK | Kanto | Grass | Kanto: 15%, Grass, ROUTE_17 | Yes |
 | 90 | SHELLDER | Before Pryce | Fish (Good Rod) | Before Pryce: 10%, Fish (Good Rod), NEW_BARK_TOWN | Yes |
-| 91 | CLOYSTER | Kanto | Evolve SHELLDER | - | Yes |
+| 91 | CLOYSTER | Before Pryce | Evolve SHELLDER | - | Yes |
 | 92 | GASTLY | Before Falkner | Grass | Before Falkner: 85%, Grass, SPROUT_TOWER_2F | Yes |
 | 93 | HAUNTER | Before Falkner | Evolve GASTLY | Kanto: 30%, Grass, ROUTE_8 | Yes |
 | 94 | GENGAR | Before Falkner | Evolve HAUNTER | - | Yes |
@@ -232,7 +232,7 @@ None
 | 100 | VOLTORB | Before Pryce | Static | Kanto: 30%, Grass, ROUTE_10_NORTH | Yes |
 | 101 | ELECTRODE | Before Pryce | Static | - | Yes |
 | 102 | EXEGGCUTE | Before Whitney | Headbutt | Before Whitney: 15%, Headbutt, ROUTE_34 | Yes |
-| 103 | EXEGGUTOR | Kanto | Evolve EXEGGCUTE | - | Yes |
+| 103 | EXEGGUTOR | Before Whitney | Evolve EXEGGCUTE | - | Yes |
 | 104 | CUBONE | Kanto | Grass | Kanto: 35%, Grass, ROCK_TUNNEL_1F | Yes |
 | 105 | MAROWAK | Kanto | Grass | Kanto: 5%, Grass, ROCK_TUNNEL_B1F | Yes |
 | 106 | HITMONLEE | Before Clair | Evolve TYROGUE | - | Yes |
@@ -250,7 +250,7 @@ None
 | 118 | GOLDEEN | Before Bugsy | Fish (Old Rod) | Before Bugsy: 15%, Fish (Old Rod), DARK_CAVE_VIOLET_ENTRANCE | Yes |
 | 119 | SEAKING | Before Bugsy | Evolve GOLDEEN | Before Pryce: 10%, Surf, MOUNT_MORTAR_1F_OUTSIDE | Yes |
 | 120 | STARYU | Before Pryce | Fish (Good Rod) | Before Pryce: 10%, Fish (Good Rod), ROUTE_46 | Yes |
-| 121 | STARMIE | Kanto | Evolve STARYU | - | Yes |
+| 121 | STARMIE | Before Pryce | Evolve STARYU | - | Yes |
 | 122 | MR__MIME | Kanto | Grass | Kanto: 10%, Grass, ROUTE_21 | Yes |
 | 123 | SCYTHER | Before Whitney | Bug Contest | Before Whitney: 5%, Bug Contest, National Park | Yes |
 | 124 | JYNX | Before Clair | Grass | Before Clair: 10%, Grass, ICE_PATH_1F | Yes |
@@ -263,9 +263,9 @@ None
 | 131 | LAPRAS | Before Pryce | Static | - | Yes |
 | 132 | DITTO | Before Whitney | Grass | Before Whitney: 5%, Grass, ROUTE_34 | Yes |
 | 133 | EEVEE | Before Whitney | Gift | - | Yes |
-| 134 | VAPOREON | Kanto | Evolve EEVEE | - | Yes |
-| 135 | JOLTEON | Kanto | Evolve EEVEE | - | Yes |
-| 136 | FLAREON | Kanto | Evolve EEVEE | - | Yes |
+| 134 | VAPOREON | Before Pryce | Evolve EEVEE | - | Yes |
+| 135 | JOLTEON | Before Pryce | Evolve EEVEE | - | Yes |
+| 136 | FLAREON | Before Morty | Evolve EEVEE | - | Yes |
 | 137 | PORYGON | Kanto | Prize | - | Yes |
 | 138 | OMANYTE | - | Not obtainable | - | No |
 | 139 | OMASTAR | - | Not obtainable | - | No |

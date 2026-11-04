@@ -144,7 +144,7 @@ BurnedTower1FBurnHeal:
 	itemball BURN_HEAL, 1
 
 BurnedTower1FXSpeed:
-	itemball X_SPEED, 1
+	itemball FIRE_STONE, 1
 
 BurnedTowerMovement_RivalWalksToPlayer:
 	step DOWN

@@ -12,6 +12,7 @@ No ROMs are included. You build one yourself from this source.
 - **Johto bosses:** gym leaders, rival fights, Rocket executives, the Elite Four, and Lance have new levels, teams, and moves, so the challenge climbs with the story.
 - **Regular trainers:** levels are raised by area to sit closer to the next boss. Species and movesets aren't updated yet, so some Pokémon are past their usual evolution level.
 - **Battle AI:** bosses and Cooltrainers now favor super effective moves.
+- **Availability (in progress):** Gold-only Pokémon are now in Silver, rare and late Pokémon are easier to find, and evolution stones are pickups around the world and sold late in Celadon.
 
 Kanto is unfinished: its leaders still have their original teams.
 

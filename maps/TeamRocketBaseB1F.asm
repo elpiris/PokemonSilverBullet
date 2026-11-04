@@ -535,7 +535,7 @@ TeamRocketBaseB1FNugget:
 	itemball NUGGET
 
 TeamRocketBaseB1FXAccuracy:
-	itemball X_ACCURACY
+	itemball THUNDERSTONE
 
 TeamRocketBaseB1FHiddenRevive:
 	hiddenitem REVIVE, EVENT_TEAM_ROCKET_BASE_B1F_HIDDEN_REVIVE

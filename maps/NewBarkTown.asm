@@ -105,6 +105,8 @@ NewBarkTownFisherScript:
 	jumptextfaceplayer Text_ElmDiscoveredNewMon
 
 NewBarkTownRivalScript:
+	checkevent EVENT_GOT_LEFTOVER_STARTER_FROM_ELM
+	iftrue NewBarkTownRivalEpilogueScript
 	opentext
 	writetext NewBarkTownRivalText1
 	waitbutton
@@ -123,6 +125,89 @@ NewBarkTownRivalScript:
 	playsound SFX_TACKLE
 	applymovement PLAYER, NewBarkTown_RivalShovesYouOutMovement
 	applymovement NEWBARKTOWN_RIVAL, NewBarkTown_RivalReturnsToTheShadowsMovement
+	end
+
+NewBarkTownRivalEpilogueScript:
+	faceplayer
+	playmusic MUSIC_RIVAL_ENCOUNTER
+	opentext
+	checkevent EVENT_BEAT_RIVAL_IN_NEW_BARK_TOWN
+	iftrue .GiveEgg
+	writetext NewBarkTownRivalEpilogueText
+	waitbutton
+	closetext
+	checkevent EVENT_GOT_TOTODILE_FROM_ELM
+	iftrue .Totodile
+	checkevent EVENT_GOT_CHIKORITA_FROM_ELM
+	iftrue .Chikorita
+	winlosstext NewBarkTownRivalWinText, NewBarkTownRivalLossText
+	setlasttalked NEWBARKTOWN_RIVAL
+	loadtrainer RIVAL2, RIVAL2_1_TOTODILE
+	startbattle
+	dontrestartmapmusic
+	reloadmapafterbattle
+	sjump .AfterBattle
+
+.Totodile:
+	winlosstext NewBarkTownRivalWinText, NewBarkTownRivalLossText
+	setlasttalked NEWBARKTOWN_RIVAL
+	loadtrainer RIVAL2, RIVAL2_1_CHIKORITA
+	startbattle
+	dontrestartmapmusic
+	reloadmapafterbattle
+	sjump .AfterBattle
+
+.Chikorita:
+	winlosstext NewBarkTownRivalWinText, NewBarkTownRivalLossText
+	setlasttalked NEWBARKTOWN_RIVAL
+	loadtrainer RIVAL2, RIVAL2_1_CYNDAQUIL
+	startbattle
+	dontrestartmapmusic
+	reloadmapafterbattle
+.AfterBattle:
+	setevent EVENT_BEAT_RIVAL_IN_NEW_BARK_TOWN
+	playmusic MUSIC_RIVAL_AFTER
+	opentext
+	writetext NewBarkTownRivalAfterBattleText
+	promptbutton
+.GiveEgg:
+	readvar VAR_PARTYCOUNT
+	ifequal PARTY_LENGTH, .PartyFull
+	checkevent EVENT_GOT_TOTODILE_FROM_ELM
+	iftrue .ChikoritaEgg
+	checkevent EVENT_GOT_CHIKORITA_FROM_ELM
+	iftrue .CyndaquilEgg
+	giveegg TOTODILE, EGG_LEVEL
+	sjump .ReceivedEgg
+
+.ChikoritaEgg:
+	giveegg CHIKORITA, EGG_LEVEL
+	sjump .ReceivedEgg
+
+.CyndaquilEgg:
+	giveegg CYNDAQUIL, EGG_LEVEL
+.ReceivedEgg:
+	getstring STRING_BUFFER_4, .eggname
+	scall .RivalGivesEgg
+	writetext NewBarkTownRivalGaveEggText
+	waitbutton
+	closetext
+	disappear NEWBARKTOWN_RIVAL
+	playmapmusic
+	end
+
+.eggname
+	db "EGG@"
+
+.RivalGivesEgg:
+	jumpstd ReceiveTogepiEggScript
+	end
+
+.PartyFull:
+	writetext NewBarkTownRivalPartyFullText
+	waitbutton
+	closetext
+	playmapmusic
 	end
 
 NewBarkTownSign:
@@ -252,6 +337,63 @@ Text_ElmDiscoveredNewMon:
 	para "I hear PROF.ELM"
 	line "discovered some"
 	cont "new #MON."
+	done
+
+NewBarkTownRivalEpilogueText:
+	text "<……>"
+
+	para "<PLAYER>. This is"
+	line "where it all"
+	cont "started."
+
+	para "I stole a #MON"
+	line "from this lab, and"
+	cont "I still can't beat"
+	cont "you."
+
+	para "Show me why!"
+	done
+
+NewBarkTownRivalWinText:
+	text "…So that's it."
+	done
+
+NewBarkTownRivalLossText:
+	text "Humph. Not today."
+	done
+
+NewBarkTownRivalAfterBattleText:
+	text "I've been thinking"
+	line "about my #MON."
+
+	para "The one I stole"
+	line "fought for me even"
+	cont "when I treated it"
+	cont "badly."
+
+	para "It left this EGG."
+
+	para "I've got no right"
+	line "to raise it."
+
+	para "Take it, <PLAYER>."
+	done
+
+NewBarkTownRivalGaveEggText:
+	text "Raise it better"
+	line "than I did."
+
+	para "…Don't get the"
+	line "wrong idea. Next"
+	cont "time, I'll win."
+	done
+
+NewBarkTownRivalPartyFullText:
+	text "You can't carry"
+	line "any more #MON?"
+
+	para "Humph. Come back"
+	line "when there's room."
 	done
 
 NewBarkTownRivalText1:

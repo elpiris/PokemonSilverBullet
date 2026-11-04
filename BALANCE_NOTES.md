@@ -178,6 +178,19 @@ Fire, Water, Thunder, and Leaf Stones only came from Bill's grandfather in Kanto
 
 Celadon Dept. Store 4F now sells all six stones for ¥2100 each. The Moon Stone's price changed from ¥0 to ¥2100 so it isn't free there, which also means it can now be sold. Existing sources, such as Bill's grandfather and Tohjo Falls, are unchanged. Event names in the map scripts still mention the old items, which doesn't show in-game.
 
+### Johto starters
+
+Only one starter was available, and breeding can't produce the others. Both now come from a short post-league story in New Bark Town. The script is in `maps/ElmsLab.asm` and `maps/NewBarkTown.asm`, using two new event flags.
+
+| You chose | Rival stole | Elm gives (Lv5, holding a Berry) | Rival gives (Egg) |
+|---|---|---|---|
+| Cyndaquil | Totodile | Chikorita | Totodile |
+| Totodile | Chikorita | Cyndaquil | Chikorita |
+| Chikorita | Cyndaquil | Totodile | Cyndaquil |
+
+- **Elm:** after you've collected the S.S. Ticket, talking to him gives you the starter left on his table. It's Lv5, the same as your first one. A full party means you come back later.
+- **Rival:** Elm's gift brings the rival back to the lab window where you first met. They battle you with their Mt. Moon team, then hand over an Egg of the stolen starter. They keep their own Pokémon, so later fights still make sense. Losing lets you try again, and a full party means you come back for the Egg.
+
 ## To do
 
 Remaining work is tracked in [TODO.md](TODO.md).

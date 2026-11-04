@@ -51,7 +51,7 @@ ProfElmScript:
 	faceplayer
 	opentext
 	checkevent EVENT_GOT_SS_TICKET_FROM_ELM
-	iftrue ElmCheckMasterBall
+	iftrue ElmCheckLeftoverStarter
 	checkevent EVENT_BEAT_ELITE_FOUR
 	iftrue ElmGiveTicketScript
 ElmCheckMasterBall:
@@ -371,6 +371,58 @@ ElmGiveTicketScript:
 	verbosegiveitem S_S_TICKET
 	setevent EVENT_GOT_SS_TICKET_FROM_ELM
 	writetext ElmGiveTicketText2
+	waitbutton
+	closetext
+	end
+
+ElmCheckLeftoverStarter:
+	checkevent EVENT_GOT_LEFTOVER_STARTER_FROM_ELM
+	iftrue ElmCheckMasterBall
+	writetext ElmGiveStarterText1
+	promptbutton
+	readvar VAR_PARTYCOUNT
+	ifequal PARTY_LENGTH, .PartyFull
+	checkevent EVENT_GOT_TOTODILE_FROM_ELM
+	iftrue .GiveCyndaquil
+	checkevent EVENT_GOT_CHIKORITA_FROM_ELM
+	iftrue .GiveTotodile
+	disappear ELMSLAB_POKE_BALL3
+	getmonname STRING_BUFFER_3, CHIKORITA
+	writetext ReceivedStarterText
+	playsound SFX_CAUGHT_MON
+	waitsfx
+	promptbutton
+	givepoke CHIKORITA, 5, BERRY
+	sjump .Finish
+
+.GiveCyndaquil:
+	disappear ELMSLAB_POKE_BALL1
+	getmonname STRING_BUFFER_3, CYNDAQUIL
+	writetext ReceivedStarterText
+	playsound SFX_CAUGHT_MON
+	waitsfx
+	promptbutton
+	givepoke CYNDAQUIL, 5, BERRY
+	sjump .Finish
+
+.GiveTotodile:
+	disappear ELMSLAB_POKE_BALL2
+	getmonname STRING_BUFFER_3, TOTODILE
+	writetext ReceivedStarterText
+	playsound SFX_CAUGHT_MON
+	waitsfx
+	promptbutton
+	givepoke TOTODILE, 5, BERRY
+.Finish:
+	setevent EVENT_GOT_LEFTOVER_STARTER_FROM_ELM
+	clearevent EVENT_RIVAL_NEW_BARK_TOWN
+	writetext ElmGiveStarterText2
+	waitbutton
+	closetext
+	end
+
+.PartyFull:
+	writetext ElmGiveStarterPartyFullText
 	waitbutton
 	closetext
 	end
@@ -1062,6 +1114,40 @@ ElmGiveTicketText2:
 
 	para "Give my regards to"
 	line "PROF.OAK in KANTO!"
+	done
+
+ElmGiveStarterText1:
+	text "ELM: <PLAYER>, one"
+	line "#MON is still"
+	cont "here on my table."
+
+	para "Nobody ever came"
+	line "for it, and it"
+	cont "deserves to see"
+	cont "the world."
+
+	para "Will you take it"
+	line "with you?"
+	done
+
+ElmGiveStarterText2:
+	text "Raise it well!"
+
+	para "Oh, by the way…"
+
+	para "I saw someone"
+	line "hanging around my"
+	cont "window again."
+
+	para "Could you check on"
+	line "it for me?"
+	done
+
+ElmGiveStarterPartyFullText:
+	text "Oh, your party is"
+	line "full. Come back"
+	cont "when you have room"
+	cont "for one more."
 	done
 
 ElmsLabMonEggText: ; unreferenced

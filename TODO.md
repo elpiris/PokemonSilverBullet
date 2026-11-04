@@ -4,11 +4,10 @@ The current plan, in order. Each topic is proposed and approved before any game 
 
 ## 1. Catchable Pokémon and better Gen 2 availability
 
-Goal: all 251 on one save, with as few code changes as possible. Done so far: Gold-only Pokémon, rare and late Pokémon, and evolution stones.
+Goal: all 251 on one save, with as few code changes as possible. Done so far: Gold-only Pokémon, rare and late Pokémon, evolution stones, and Johto starters.
 
 Still to propose, one at a time:
 
-- Johto starters you didn't pick.
 - Kanto starters.
 - Fossils.
 - Articuno, Zapdos, and Moltres, as static final prizes in Kanto dungeons that have none.

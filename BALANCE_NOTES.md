@@ -49,3 +49,19 @@ Pryce's gym only opens after the Hideout, so those three leaders stay close toge
 | Clair | 40 | 41 | Adds Gyarados as a fifth Pokémon, since she's the last leader |
 
 Leader aces may be evolved below the player's evolution level (Morty's Gengar, Jasmine's Steelix, Clair's Kingdra).
+
+## Difficulty: Johto rival fights and Rocket executives
+
+The Cherrygrove and Azalea rival fights are unchanged. The rest now climb with the story.
+
+| Fight | Vanilla ace | New ace | Main changes and reason |
+|---|---|---|---|
+| Rival, Burned Tower | 22 | 23 | Zubat → Golbat. Haunter: Spite → Night Shade. Bayleef: Growl → Synthesis |
+| Rocket Hideout, male executive | 24 | 30 | Levels only, and Zubat → Golbat. They were below leaders you may already have beaten |
+| Rocket Hideout, female executive | 25 | 30 | Levels only |
+| Radio Tower, Fake Director | 32 | 36 | Levels only, keeping the Koffing wall |
+| Rival, Goldenrod | 32 | 37 | Magnemite → Magneton, Quilava → Typhlosion. Better moves on most of the team |
+| Radio Tower, male executive | 36 | 38 | Levels only |
+| Radio Tower, female executive | 32 | 38 | Levels only |
+| Radio Tower, Rocket boss | 35 | 39 | Houndour → Houndoom and Koffing → Weezing, as both are past their evolution levels |
+| Rival, Victory Road | 38 | 42 | Haunter → Gengar, Kadabra → Alakazam, following the new evolution levels. Starters get Giga Drain, Flamethrower, or Surf so they feel like aces |

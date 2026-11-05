@@ -222,6 +222,7 @@ Each bird is a one-time static encounter at the end of a Kanto dungeon that had 
 |---|---|---|---|
 | Zapdos | 50 | Rock Tunnel 1F, a narrow passage in the northwest section | It's next to the Power Plant, and this is the farthest walkable spot from both entrances. You can only reach that section through B1F, and the bird blocks nothing because a second passage runs alongside it |
 | Moltres | 50 | Victory Road, the dead-end side room near the Route 23 exit | It's its Gen 1 home. It only appears after you beat the Elite Four, so it stays a post-league prize even though you walk through Victory Road before the league |
+| Articuno | 50 | Mt. Moon, the small pocket above the Route 4 exit room | Its Gen 1 home, Seafoam Islands, is only Blaine's gym here. You reach the pocket by going out to Mt. Moon Square and back in through a second cave, so it's off the normal route. A ledge leads out, and the bird stands clear of it |
 
 Lv50 matches the birds in Gen 1 and sits just under the Kanto leaders' target levels.
 

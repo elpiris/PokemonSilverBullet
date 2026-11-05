@@ -1334,7 +1334,8 @@
 	const EVENT_ROCK_TUNNEL_1F_ZAPDOS
 	const EVENT_VICTORY_ROAD_MOLTRES
 	const EVENT_FOUGHT_MOLTRES
-; Unused: next 106 events
+	const EVENT_MOUNT_MOON_ARTICUNO
+; Unused: next 105 events
 
 	const_next 2048
 DEF NUM_EVENTS EQU const_value ; 800

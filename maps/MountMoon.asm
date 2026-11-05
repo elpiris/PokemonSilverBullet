@@ -1,5 +1,6 @@
 	object_const_def
 	const MOUNTMOON_RIVAL
+	const MOUNTMOON_ARTICUNO
 
 MountMoon_MapScripts:
 	def_scene_scripts
@@ -13,6 +14,20 @@ MountMoonRivalEncounterScene:
 	end
 
 MountMoonNoopScene:
+	end
+
+MountMoonArticuno:
+	faceplayer
+	opentext
+	writetext MountMoonArticunoText
+	cry ARTICUNO
+	pause 15
+	closetext
+	loadvar VAR_BATTLETYPE, BATTLETYPE_FORCEITEM
+	loadwildmon ARTICUNO, 50
+	startbattle
+	disappear MOUNTMOON_ARTICUNO
+	reloadmapafterbattle
 	end
 
 MountMoonRivalBattleScript:
@@ -160,6 +175,10 @@ MountMoonRivalTextLoss:
 	cont "greatest trainer."
 	done
 
+MountMoonArticunoText:
+	text "Gyaoo!"
+	done
+
 MountMoon_MapEvents:
 	db 0, 0 ; filler
 
@@ -179,3 +198,4 @@ MountMoon_MapEvents:
 
 	def_object_events
 	object_event  7,  3, SPRITE_RIVAL, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_MT_MOON_RIVAL
+	object_event 14, 10, SPRITE_MOLTRES, SPRITEMOVEDATA_POKEMON, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, MountMoonArticuno, EVENT_MOUNT_MOON_ARTICUNO

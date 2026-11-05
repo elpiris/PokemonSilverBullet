@@ -15,16 +15,12 @@ Done for regular trainers. The Kanto leaders, Blue, and Red still need theirs in
 ## 3. Finish Kanto
 
 - Another pass on Kanto trainers, including the gym trainers, which haven't changed. Route trainers are now up to Lv48, above some vanilla leaders until this is done.
-- Later fights, with these target top levels:
-  - Rival at Mt. Moon: 53 (now 45)
-  - Rival at Indigo Plateau: 60 (now 50)
-  - Blue: 64 (now 58)
-  - Red: 75 (now 81), though this level is still open
-- Consider fixing the `RIVAL2` DV bug in `data/trainers/dvs.asm`.
 
 ## 4. Clearly unusable Pokémon
 
 Improve the stats of extreme cases only, such as Ledian. Everyone else stays as they are.
+
+Sneasel is on the list: its Dark and Ice moves are special, and it has only 35 Sp. Atk.
 
 ## Testing
 
@@ -40,5 +36,6 @@ Only booting has been confirmed so far. These still need testing in-game:
 - The static Mewtwo in Silver Cave.
 - The static Celebi at the Ilex Forest shrine.
 - The new wild levels and evolved wild slots, mainly in Kanto.
+- The Kanto leaders, the later rival fights, Blue, and Red.
 - The evolved trainer teams, especially Crobat, Gyarados, and other early evolutions.
 - The Mew reward: the scientist's news on catching the last Unown, and the encounter in the lower hall.

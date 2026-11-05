@@ -272,7 +272,7 @@ Wild moves update on their own: the game builds a wild Pokémon's moves from its
 
 ## Trainer evolutions and moves
 
-Regular trainers' Pokémon now evolve to fit their levels. Bosses keep their hand-picked teams, and the Kanto leaders, Blue, and Red wait for the Kanto pass.
+Regular trainers' Pokémon now evolve to fit their levels. Bosses keep their hand-picked teams.
 
 | Evolution type | Rule |
 |---|---|
@@ -297,7 +297,21 @@ Kanto leaders can be fought in any order, so they share a narrow range. Each has
 | Erika | 41-46, 4 Pokémon | 52-55 | Vileplume and Exeggutor join. Sleep and Sun are her plan. Synthesis on Victreebel and Bellossom comes from her original team |
 | Misty | 42-47, 4 Pokémon | 53-56 | Cloyster and Vaporeon join. Quagsire handles Electric types, and Ice moves handle Grass types. Psychic on Golduck and Ice Beam on Starmie come from her original team |
 | Sabrina | 46-48, 3 Pokémon | 53-56 | Hypno, Xatu, and Slowbro join. Swift, Night Shade, Headbutt, and Alakazam's Fire Punch answer Dark and Steel types |
-| Blaine | 45-50, 3 Pokémon | 55-58 | Houndoom, Flareon, and Ninetales join, and Rapidash stays his ace. Magmar's ThunderPunch is his only answer to Water types. Quick Attack on Rapidash comes from his original team |
+| Blaine | 45-50, 3 Pokémon | 55-58 | Houndoom, Flareon, and Ninetales join, and Rapidash stays his ace. Magmar's ThunderPunch is his only answer to Water types. Sunny Day on Houndoom, Ninetales, and Rapidash powers up his Fire moves. Houndoom also has SolarBeam, the only one of his team that can learn it, which answers Water and Ground types. Quick Attack on Rapidash comes from his original team |
+
+## Rival, Blue, and Red
+
+| Fight | Was | Now | Notes |
+|---|---|---|---|
+| Rival, Mt. Moon and New Bark Town | 41-45 | 49-53 | Golbat evolves into Crobat. Each starter gets a move against its counter: Earthquake on Meganium, ThunderPunch on Typhlosion, Ice Punch on Feraligatr |
+| Rival, Indigo Plateau | 45-50 | 56-60 | Keeps the Mt. Moon upgrades and adds more coverage. Gengar gets ThunderPunch, Crobat gets Steel Wing, and Sneasel gets DynamicPunch |
+| Blue | 54-58 | 61-64 | Same team. Steel Wing, Fire Punch, Surf, and Iron Tail cover the types that used to wall it. Gyarados still has only Hyper Beam against Electric types, since it can't learn Earthquake |
+| Red | 73-81 | 73-81 | Levels and order unchanged, so he stays the ultimate boss. The player may have Mewtwo by then. Earthquake on Charizard and Blastoise, and Surf on Pikachu, so Ground types can't wall it |
+
+- **Sneasel:** Dark and Ice are special in Gen 2, and Sneasel has 95 Attack but only 35 Sp. Atk, so Faint Attack did very little. It now relies on Slash and Shadow Ball, which are physical. Its Ice Punch is still weak until its stats are reviewed.
+- **Crobat:** It can't learn Sludge Bomb, but the rival's Crobat has it anyway, because it has no strong Poison move otherwise.
+- **Moves kept from the original teams:** Blue's Rock Slide, Leech Seed, and Flamethrower, and Red's Charm and Reflect, aren't learnable but were already there.
+- **Rival DVs:** `RIVAL2` had lower DVs than `RIVAL1`, a bug in the original game. Both now use 13/13/13/13.
 
 ## To do
 

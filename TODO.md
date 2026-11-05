@@ -18,9 +18,7 @@ Done: the Kanto leaders and gym trainers, the later rival fights, Blue, Red, and
 
 ## 4. Clearly unusable Pokémon
 
-Improve the stats of extreme cases only, such as Ledian. Everyone else stays as they are.
-
-Sneasel is on the list: its Dark and Ice moves are special, and it has only 35 Sp. Atk.
+Done: stats and moves for the outrageous cases, mostly Gen 2. `BALANCE_NOTES.md` lists them.
 
 ## Testing
 
@@ -37,5 +35,6 @@ Only booting has been confirmed so far. These still need testing in-game:
 - The static Celebi at the Ilex Forest shrine.
 - The new wild levels and evolved wild slots, mainly in Kanto.
 - The Kanto leaders and gym trainers, the later rival fights, Blue, and Red.
+- The buffed Pokémon, including trainers who use them, such as the rival's Sneasel.
 - The evolved trainer teams, especially Crobat, Gyarados, and other early evolutions.
 - The Mew reward: the scientist's news on catching the last Unown, and the encounter in the lower hall.

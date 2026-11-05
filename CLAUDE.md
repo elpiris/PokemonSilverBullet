@@ -7,15 +7,15 @@ Pokémon should be obtainable on one cartridge.
 
 ## Current state
 - Done: level-based trade evolutions, Johto boss teams, regular trainer levels, type awareness
-  for the boss AI, all 251 Pokémon obtainable on one save, wild levels, evolved regular trainers, and the Kanto fights. `BALANCE_NOTES.md` has every change and its reason.
-- Next: see `TODO.md`, and work through it in order.
+  for the boss AI, all 251 Pokémon obtainable on one save, wild levels, evolved regular trainers, the Kanto fights, and buffs for extreme cases. `BALANCE_NOTES.md` has every change and its reason.
+- Next: see `TODO.md`. The ordered plan is done, so what remains is testing.
 - Most of this hasn't been played, so don't describe a change as tested unless I've reported it.
 
 ## Hard constraints
 - Start from the vanilla base game. Do NOT add the physical/special split: Gen 2 keeps the
   type-based split (Fire, Water, Grass, Electric, Psychic, Ice, Dragon, Dark = special; the rest physical). Leave that logic alone.
 - Scope grows only when I ask. So far I've asked for evolutions, trainer teams and levels, the
-  battle AI, encounters (availability), and stat buffs for extreme cases. Anything else is out of
+  battle AI, encounters (availability), and stat and movepool buffs for extreme cases. Anything else is out of
   scope until I ask for it.
 - Special is already split into Sp. Atk and Sp. Def in Gen 2, so both can be tuned independently.
 

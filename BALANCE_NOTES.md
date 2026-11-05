@@ -342,6 +342,37 @@ Added Pokémon, all of the gym's type: Jerry gets Golem and Rhydon, Diana gets K
 
 Kept on purpose: the three Cooltrainers on Route 34 (Lv26-30) are above Whitney, but their pond can only be reached by water, so they answer to Chuck. Pokéfan Joshua on Route 13 is below his neighbors at Lv33, but he has six Raichu.
 
+## Weak Pokémon
+
+Only outrageously weak Pokémon change, each given a clearer identity. They're meant to stay weak but usable, not become competitive, so most stay at or below the usual BST for finished Pokémon (485). Only the stats listed change. Trainers using these Pokémon get the same stats, and automatic movesets pick up the new moves.
+
+| Pokémon | Identity | Stats | BST | Level-up moves |
+|---|---|---|---|---|
+| Sneasel | Ice assassin | Sp. Atk 35 → 80 | 430 → 475 | Ice Punch 33, replacing Fury Swipes. Dark and Ice are special in Gen 2 |
+| Dunsparce | Burrowing pest | Attack 70 → 80, Defense 70 → 80, Sp. Def 65 → 70 | 415 → 440 | Dig 23, Body Slam 34, and the Earthquake TM |
+| Ledian | Elemental puncher | HP 55 → 65, Defense 50 → 55, Speed 85 → 90, Sp. Atk 55 → 85 | 390 → 440 | ThunderPunch 30, Ice Punch 38, Fire Punch 46, and the Fire Punch TM. These punches are special in Gen 2 |
+| Delibird | Frail, fast Ice attacker | HP 45 → 60, Defense 45 → 55, Speed 75 → 95, Sp. Atk 65 → 90, Sp. Def 45 → 55 | 330 → 410 | Powder Snow 8, Icy Wind 22, Aurora Beam 30, Ice Beam 46 |
+| Yanma | Fast hit-and-run flyer | Attack 65 → 70, Defense 45 → 50, Speed 95 → 110, Sp. Def 45 → 50 | 390 → 420 | Wing Attack 22, Fury Cutter 28, Drill Peck 49 |
+| Aipom | Quick trickster | HP 55 → 60, Attack 70 → 85, Defense 55 → 60, Speed 85 → 105, Sp. Def 55 → 60 | 360 → 410 | Slash 30, Body Slam 40 |
+| Ariados | Web trapper | Attack 90 → 95, Defense 70 → 75, Speed 40 → 50, Sp. Def 60 → 70 | 390 → 420 | Pin Missile 30, Sludge Bomb 38, Spikes 47 |
+| Corsola | Recover wall | HP 55 → 70, Defense 85 → 95, Sp. Atk 65 → 70, Sp. Def 85 → 95 | 380 → 420 | None |
+| Togetic | Metronome support | HP 55 → 75, Speed 40 → 60, Sp. Atk 80 → 90 | 405 → 455 | Psybeam 30, Moonlight 43, Psychic 50 |
+| Farfetch'd | Leek swordsman | HP 52 → 60, Attack 65 → 85, Defense 55 → 60, Speed 60 → 75 | 352 → 400 | Drill Peck 43 |
+| Lickitung | Bulky paralyzer | HP 90 → 100, Attack 55 → 80, Defense 75 → 80, Speed 30 → 40, Sp. Def 75 → 80 | 385 → 440 | Body Slam 40 |
+| Beedrill | Fast poison striker | Attack 80 → 90, Defense 40 → 45, Speed 75 → 85 | 385 → 410 | Sludge Bomb 40. Kept small because Weedle is an early Pokémon |
+
+Moves only:
+
+| Pokémon | Problem | Level-up move |
+|---|---|---|
+| Murkrow | No Flying attack by level | Wing Attack 21, Drill Peck 46 |
+| Politoed | Water Gun was its only Water move by level | Hydro Pump 45 |
+| Ninetales | Evolves by stone, with Ember as its best Fire move by level | Flamethrower 40 |
+| Wigglytuff | Evolves by stone, with DoubleSlap as its only attack by level | Body Slam 40 |
+| Arbok | Acid was its best Poison move by level | Sludge Bomb 38 |
+
+Left alone: Wobbuffet, Smeargle, Shuckle, and Ditto, whose gimmick is the point, and Butterfree, Parasect, Furret, Noctowl, Sunflora, Jumpluff, Magcargo, Misdreavus, Clefable, Raticate, Fearow, and Dewgong, which are weak but usable.
+
 ## To do
 
 Remaining work is tracked in [TODO.md](TODO.md).

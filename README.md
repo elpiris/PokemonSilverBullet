@@ -17,6 +17,8 @@ No ROMs are included. You build one yourself from this source.
 
 Kanto's leaders, gym trainers, and final fights all have new teams and levels.
 
+A small group of outrageously weak Pokémon, such as Dunsparce, Ledian, Delibird, and Sneasel, get better stats and moves. They stay weak, but usable.
+
 Most of this hasn't been playtested yet. See [BALANCE_NOTES.md](BALANCE_NOTES.md) for every change and the reason for it, and [TODO.md](TODO.md) for what's next.
 
 ## Building

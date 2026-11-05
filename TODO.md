@@ -14,10 +14,6 @@ Done for regular trainers. The Kanto leaders, Blue, and Red still need theirs in
 
 ## 3. Finish Kanto
 
-- Leaders, with these target top levels:
-  - Erika: 55
-  - Misty and Sabrina: 56
-  - Blaine: 58
 - Another pass on Kanto trainers, including the gym trainers, which haven't changed. Route trainers are now up to Lv48, above some vanilla leaders until this is done.
 - Later fights, with these target top levels:
   - Rival at Mt. Moon: 53 (now 45)

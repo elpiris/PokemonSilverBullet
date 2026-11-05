@@ -294,6 +294,10 @@ Kanto leaders can be fought in any order, so they share a narrow range. Each has
 | Brock | 41-44, 5 Pokémon | 51-54 | Onix becomes Steelix as the ace, and Aerodactyl joins. Rock Slide isn't learnable in this game, but his original team used it, and he needs Rock attacks |
 | Janine | 33-39, 5 Pokémon | 50-54 | Biggest jump. Muk and Tentacruel replace her second Weezing, and Crobat is her ace |
 | Lt. Surge | 40-46, 5 Pokémon | 51-54 | Ampharos and Jolteon replace his second Electrode. Raichu has Surf, a nod to Pokémon Yellow, and Ampharos has Ice Punch, so Ground types can't wall him |
+| Erika | 41-46, 4 Pokémon | 52-55 | Vileplume and Exeggutor join. Sleep and Sun are her plan. Synthesis on Victreebel and Bellossom comes from her original team |
+| Misty | 42-47, 4 Pokémon | 53-56 | Cloyster and Vaporeon join. Quagsire handles Electric types, and Ice moves handle Grass types. Psychic on Golduck and Ice Beam on Starmie come from her original team |
+| Sabrina | 46-48, 3 Pokémon | 53-56 | Hypno, Xatu, and Slowbro join. Swift, Night Shade, Headbutt, and Alakazam's Fire Punch answer Dark and Steel types |
+| Blaine | 45-50, 3 Pokémon | 55-58 | Houndoom, Flareon, and Ninetales join, and Rapidash stays his ace. Magmar's ThunderPunch is his only answer to Water types. Quick Attack on Rapidash comes from his original team |
 
 ## To do
 

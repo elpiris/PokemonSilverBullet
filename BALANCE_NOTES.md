@@ -94,7 +94,7 @@ A quick pass, levels only: species and fixed movesets are unchanged, so some tra
 | Routes 38 to 41, Olivine Lighthouse | +7 to +8 | 28 to 30 | Chuck 32, Jasmine 34 |
 | Cianwood Gym | +3 | 30 | Chuck 32 |
 | Routes 42 and 43 | +11 | 30 | Pryce 36 |
-| Rocket Hideout | +5 | 29 | Executives 30 |
+| Rocket Hideout | +9 | 29 | Executives 30 |
 | Lake of Rage, Union Cave lower floors | +3 | 30 to 31 | Pryce 36 |
 | Mahogany Gym | +6 | 34 | Pryce 36 |
 | Radio Tower, Goldenrod Underground rooms | +10 | 35 to 36 | Executives 38, boss 39 |
@@ -107,7 +107,7 @@ Other cases:
 
 - Phone rematches go up with their level: +2 up to Lv12, +4 up to Lv20, +6 up to Lv30, and +8 above that.
 - The Route 34 Cooltrainers and Ruins of Alph trainers get +2, and Kiyo in Mt. Mortar gets +2.
-- Unchanged: Route 46, Trainer House, and unused parties. The Kanto gyms have their own section below.
+- Unchanged: Trainer House and unused parties. The Kanto gyms and Route 46 have their own sections below.
 
 ## Difficulty: battle AI
 
@@ -326,6 +326,21 @@ Added Pokémon, all of the gym's type: Jerry gets Golem and Rhydon, Diana gets K
 - **Crobat:** It can't learn Sludge Bomb, but the rival's Crobat has it anyway, because it has no strong Poison move otherwise.
 - **Moves kept from the original teams:** Blue's Rock Slide, Leech Seed, and Flamethrower, and Red's Charm and Reflect, aren't learnable but were already there.
 - **Rival DVs:** `RIVAL2` had lower DVs than `RIVAL1`, a bug in the original game. Both now use 13/13/13/13.
+
+## Full trainer level pass
+
+`python tools/audit_trainers.py` checks every trainer in story order and writes `TRAINER_LEVELS_AUDIT.md`. It checks that first fights and phone rematches stay below the next boss's ace, that a trainer's rematches don't get weaker, and that no Pokémon sits more than 8 levels below its teammates. It reads the data only, so it doesn't show how the fights play. All checks pass.
+
+| Trainer | Was | Now | Reason |
+|---|---|---|---|
+| Route 46: Ted, Erin, Bailey | 17, 16, 13 | 22, 21, 20 | They stand above one-way ledges, so they can't be reached from Route 29. The way in is through Dark Cave, which needs Rock Smash, so they answer to Morty, not Bugsy |
+| Psychic Nathan, Ruins of Alph | 28 | 25 | Was above Morty's ace |
+| Rocket Hideout grunts and scientists | 21-29 | 25-29 | The first floors were below the routes before them |
+| Bird Keeper Hank, Route 4 | 22, 44 | 42, 44 | A leftover low Pokémon |
+| Juggler Irwin, Route 35 | 5-17 | 11-17 | Same problem, and his rematches follow: 16-22 and 30-36 |
+| Blackbelt Kenji's last rematch | Onix 36 | Lv40 | Same problem |
+
+Kept on purpose: the three Cooltrainers on Route 34 (Lv26-30) are above Whitney, but their pond can only be reached by water, so they answer to Chuck. Pokéfan Joshua on Route 13 is below his neighbors at Lv33, but he has six Raichu.
 
 ## To do
 

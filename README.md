@@ -15,7 +15,7 @@ No ROMs are included. You build one yourself from this source.
 - **Battle AI:** bosses and Cooltrainers now favor super effective moves.
 - **Availability:** all 251 Pokémon can be obtained on one save. Gold-only Pokémon are now in Silver, rare and late Pokémon are easier to find, evolution stones are pickups around the world and sold late in Celadon, after the league you can get the other two Johto starters in New Bark Town, Prof. Oak gives out the Kanto starters as you earn badges, solving Ruins of Alph puzzles earns Kabuto and Omanyte, and the three legendary birds wait as one-time encounters in Rock Tunnel, Victory Road, and Mt. Moon, with Mewtwo deep in Silver Cave. Catching all 26 Unown now makes Mew appear in the Ruins of Alph, and Celebi waits at the Ilex Forest shrine for a trainer with all 16 badges.
 
-Kanto is unfinished: its leaders and later fights have new teams, but its gym trainers still need work.
+Kanto's leaders, gym trainers, and final fights all have new teams and levels.
 
 Most of this hasn't been playtested yet. See [BALANCE_NOTES.md](BALANCE_NOTES.md) for every change and the reason for it, and [TODO.md](TODO.md) for what's next.
 

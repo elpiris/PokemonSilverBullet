@@ -309,8 +309,8 @@ LtSurgeGroup:
 ScientistGroup:
 	; SCIENTIST (1)
 	db "ROSS@", TRAINERTYPE_NORMAL
-	db 27, KOFFING
-	db 27, KOFFING
+	db 29, KOFFING
+	db 29, KOFFING
 	db -1 ; end
 
 	; SCIENTIST (2)
@@ -320,9 +320,9 @@ ScientistGroup:
 
 	; SCIENTIST (3)
 	db "JED@", TRAINERTYPE_NORMAL
-	db 25, MAGNEMITE
-	db 25, MAGNEMITE
-	db 25, MAGNEMITE
+	db 29, MAGNEMITE
+	db 29, MAGNEMITE
+	db 29, MAGNEMITE
 	db -1 ; end
 
 	; SCIENTIST (4)
@@ -580,7 +580,7 @@ BirdKeeperGroup:
 
 	; BIRD_KEEPER (8)
 	db "HANK@", TRAINERTYPE_NORMAL
-	db 22, PIDGEOTTO
+	db 42, PIDGEOT
 	db 44, PIDGEOT
 	db -1 ; end
 
@@ -1262,41 +1262,41 @@ GruntMGroup:
 
 	; GRUNTM (16)
 	db "GRUNT@", TRAINERTYPE_NORMAL
-	db 21, RATICATE
-	db 21, RATICATE
-	db 21, RATICATE
-	db 21, RATICATE
+	db 25, RATICATE
+	db 25, RATICATE
+	db 25, RATICATE
+	db 25, RATICATE
 	db -1 ; end
 
 	; GRUNTM (17)
 	db "GRUNT@", TRAINERTYPE_NORMAL
-	db 23, GOLBAT
+	db 27, GOLBAT
 	db -1 ; end
 
 	; GRUNTM (18)
 	db "GRUNT@", TRAINERTYPE_NORMAL
-	db 22, RATICATE
-	db 22, GOLBAT
-	db 22, RATICATE
+	db 26, RATICATE
+	db 26, GOLBAT
+	db 26, RATICATE
 	db -1 ; end
 
 	; GRUNTM (19)
 	db "GRUNT@", TRAINERTYPE_NORMAL
-	db 23, VENONAT
-	db 23, VENONAT
+	db 27, VENONAT
+	db 27, VENONAT
 	db -1 ; end
 
 	; GRUNTM (20)
 	db "GRUNT@", TRAINERTYPE_NORMAL
-	db 22, DROWZEE
-	db 24, GOLBAT
+	db 26, HYPNO
+	db 28, GOLBAT
 	db -1 ; end
 
 	; GRUNTM (21)
 	db "GRUNT@", TRAINERTYPE_NORMAL
-	db 21, ZUBAT
-	db 22, GRIMER
-	db 23, RATICATE
+	db 25, GOLBAT
+	db 26, GRIMER
+	db 27, RATICATE
 	db -1 ; end
 
 	; GRUNTM (22)
@@ -1334,7 +1334,7 @@ GruntMGroup:
 
 	; GRUNTM (28)
 	db "GRUNT@", TRAINERTYPE_NORMAL
-	db 24, RATICATE
+	db 28, RATICATE
 	db -1 ; end
 
 	; GRUNTM (29)
@@ -2200,11 +2200,11 @@ HikerGroup:
 
 	; HIKER (11)
 	db "BAILEY@", TRAINERTYPE_NORMAL
-	db 13, GEODUDE
-	db 13, GEODUDE
-	db 13, GEODUDE
-	db 13, GEODUDE
-	db 13, GEODUDE
+	db 20, GEODUDE
+	db 20, GEODUDE
+	db 20, GEODUDE
+	db 20, GEODUDE
+	db 20, GEODUDE
 	db -1 ; end
 
 	; HIKER (12)
@@ -2406,9 +2406,9 @@ FirebreatherGroup:
 JugglerGroup:
 	; JUGGLER (1)
 	db "IRWIN@", TRAINERTYPE_NORMAL
-	db  5, VOLTORB
-	db  9, VOLTORB
+	db 11, VOLTORB
 	db 13, VOLTORB
+	db 15, VOLTORB
 	db 17, VOLTORB
 	db -1 ; end
 
@@ -2429,17 +2429,17 @@ JugglerGroup:
 
 	; JUGGLER (4)
 	db "IRWIN@", TRAINERTYPE_NORMAL
-	db  8, VOLTORB
-	db 12, VOLTORB
+	db 16, VOLTORB
 	db 18, VOLTORB
+	db 20, VOLTORB
 	db 22, VOLTORB
 	db -1 ; end
 
 	; JUGGLER (5)
 	db "IRWIN@", TRAINERTYPE_NORMAL
-	db 22, VOLTORB
-	db 28, VOLTORB
+	db 30, ELECTRODE
 	db 32, ELECTRODE
+	db 34, ELECTRODE
 	db 36, ELECTRODE
 	db -1 ; end
 
@@ -2459,9 +2459,9 @@ BlackbeltGroup:
 
 	; BLACKBELT_T (3)
 	db "KENJI@", TRAINERTYPE_NORMAL
-	db 36, ONIX
+	db 40, STEELIX
 	db 45, MACHAMP
-	db 36, ONIX
+	db 40, STEELIX
 	db 43, HITMONLEE
 	db -1 ; end
 
@@ -2534,7 +2534,7 @@ ExecutiveMGroup:
 PsychicGroup:
 	; PSYCHIC_T (1)
 	db "NATHAN@", TRAINERTYPE_NORMAL
-	db 28, GIRAFARIG
+	db 25, GIRAFARIG
 	db -1 ; end
 
 	; PSYCHIC_T (2)
@@ -2660,8 +2660,8 @@ PicnickerGroup:
 
 	; PICNICKER (10)
 	db "ERIN@", TRAINERTYPE_NORMAL
-	db 16, PONYTA
-	db 16, PONYTA
+	db 21, PONYTA
+	db 21, PONYTA
 	db -1 ; end
 
 	; PICNICKER (11)
@@ -2791,7 +2791,7 @@ CamperGroup:
 
 	; CAMPER (11)
 	db "TED@", TRAINERTYPE_NORMAL
-	db 17, MANKEY
+	db 22, MANKEY
 	db -1 ; end
 
 	; CAMPER (12)
@@ -3240,6 +3240,6 @@ GruntFGroup:
 
 	; GRUNTF (5)
 	db "GRUNT@", TRAINERTYPE_MOVES
-	db 23, ARBOK,       WRAP, LEER, POISON_STING, BITE
-	db 23, GLOOM,       ABSORB, POISONPOWDER, STUN_SPORE, SLEEP_POWDER
+	db 27, ARBOK,       WRAP, LEER, POISON_STING, BITE
+	db 27, GLOOM,       ABSORB, POISONPOWDER, STUN_SPORE, SLEEP_POWDER
 	db -1 ; end

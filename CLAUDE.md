@@ -7,7 +7,7 @@ Pokémon should be obtainable on one cartridge.
 
 ## Current state
 - Done: level-based trade evolutions, Johto boss teams, regular trainer levels, type awareness
-  for the boss AI, all 251 Pokémon obtainable on one save, wild levels, and evolved regular trainers. `BALANCE_NOTES.md` has every change and its reason.
+  for the boss AI, all 251 Pokémon obtainable on one save, wild levels, evolved regular trainers, and the Kanto fights. `BALANCE_NOTES.md` has every change and its reason.
 - Next: see `TODO.md`, and work through it in order.
 - Most of this hasn't been played, so don't describe a change as tested unless I've reported it.
 
@@ -37,6 +37,7 @@ Pokémon should be obtainable on one cartridge.
   the `trainer` and `loadtrainer` lines in `maps/*.asm` to find where each one appears.
 - Trainer AI flags: `data/trainers/attributes.asm`. Move scoring: `engine/battle/ai/scoring.asm`.
 - Stat audit: `python tools/audit_stats.py` regenerates `BASE_STATS_AUDIT.md`.
+- Trainer level audit: `python tools/audit_trainers.py` regenerates `TRAINER_LEVELS_AUDIT.md`.
 
 ## Workflow
 1. Take one topic at a time. Propose changes in a short list (current -> proposed, with a one-line

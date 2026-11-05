@@ -10,11 +10,11 @@ Wild levels are done too. See `BALANCE_NOTES.md`.
 
 ## 2. Trainer evolutions and movesets
 
-Done for regular trainers. The Kanto leaders, Blue, and Red still need theirs in the Kanto pass below.
+Done.
 
 ## 3. Finish Kanto
 
-- Full pass on trainer levels across the whole game, including phone rematches.
+Done: the Kanto leaders and gym trainers, the later rival fights, Blue, Red, and a full pass on trainer levels. `python tools/audit_trainers.py` repeats the check.
 
 ## 4. Clearly unusable Pokémon
 

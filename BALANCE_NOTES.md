@@ -243,6 +243,48 @@ All 26 forms need all four puzzles solved. Only the Kabuto chamber can be reache
 
 When you leave the Inner Chamber after catching the last Unown, a scientist stops you outside and says where to look. The Research Center scientist repeats the hint until you've fought Mew. The Unown count only changes when you catch one, so seeing them isn't enough.
 
+## Wild levels
+
+Wild levels went up only where there was room below the trainers. For each map, the cap is the median ace of its first-time trainers, minus 10, or minus 5 on early routes. Maps without trainers borrow a neighbor's value, and Kanto maps without trainers use 32. A table below its cap rises halfway to it, and every slot in the table shifts by the same amount, so the spread between slots stays the same. No level went down.
+
+| Area | Change |
+|---|---|
+| Most Johto routes | None. Their wild Pokémon were already within 10 levels of the trainers, closer than the cap allows |
+| Union Cave B1F, Ilex Forest, Route 46 | Up 3 to 4 |
+| Route 43, Route 45, Mt. Mortar, Ice Path, Whirl Islands, Dark Cave (Blackthorn side) | Up 1 to 2 |
+| Tin Tower | Up 4, to 24-28 |
+| Tohjo Falls | Up 3 |
+| Kanto early routes, Routes 1-4, 22, 24, 25 | Up 9 to 14, to around 16-24 |
+| Kanto middle routes, Routes 5-11, Mt. Moon, Rock Tunnel | Up 6 to 10, to around 16-26 |
+| Kanto late routes, Routes 13-18, Diglett's Cave | Up 1 to 5 |
+| Kanto and late Johto water | Up by the same rule |
+
+Unchanged on purpose:
+
+- **Swarms, fishing, Headbutt, Rock Smash, and the Bug-Catching Contest:** these keep their levels. Fishing levels depend on the rod, not the map.
+- **Silver Cave, Route 28, Victory Road, and Mt. Mortar 2F:** these are already high.
+
+Wild slots now evolve by level, using the same evolution levels as the player. This includes slots that were already past their evolution level, such as Rattata at Lv20 and up. Stone and friendship evolutions stay as they are in the wild.
+
+The one exception is Magikarp, which stays Magikarp at any level, because evolving it would fill ordinary water with Gyarados.
+
+Wild moves update on their own: the game builds a wild Pokémon's moves from its level-up list at the moment of the encounter.
+
+## Trainer evolutions and moves
+
+Regular trainers' Pokémon now evolve to fit their levels. Bosses keep their hand-picked teams, and the Kanto leaders, Blue, and Red wait for the Kanto pass.
+
+| Evolution type | Rule |
+|---|---|
+| By level | At the player's evolution level |
+| By stone | From Lv30 |
+| By friendship | From Lv32 |
+| Tyrogue | From Lv20 |
+
+Where a Pokémon has more than one option, it takes the first one in its data. A trainer's Slowpoke becomes Slowbro, not Slowking. 
+
+Most regular trainers use automatic moves, which already follow level and species. For the ones with hand-written moves, TMs and signature moves stay. Gaps are filled, and up to two older level-up moves are swapped for newer ones, but never a stronger attack for a weaker move.
+
 ## To do
 
 Remaining work is tracked in [TODO.md](TODO.md).

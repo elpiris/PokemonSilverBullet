@@ -6,13 +6,11 @@ The current plan, in order. Each topic is proposed and approved before any game 
 
 All 251 are now obtainable on one save, with as few code changes as possible. Done: Gold-only Pokémon, rare and late Pokémon, evolution stones, Johto starters, Kanto starters, fossils, the three legendary birds, Mewtwo, Mew, and Celebi.
 
-Still open:
-
-- Wild Pokémon levels haven't been adapted to the new curve yet, so decide whether to handle them here.
+Wild levels are done too. See `BALANCE_NOTES.md`.
 
 ## 2. Trainer evolutions and movesets
 
-The regular trainer pass only changed levels. Evolve trainers' Pokémon and update their movesets to fit those new levels.
+Done for regular trainers. The Kanto leaders, Blue, and Red still need theirs in the Kanto pass below.
 
 ## 3. Finish Kanto
 
@@ -46,4 +44,6 @@ Only booting has been confirmed so far. These still need testing in-game:
 - The static birds: Zapdos in Rock Tunnel, Moltres in Victory Road after the league, and Articuno in the Mt. Moon pocket, including whether it can be seen from the Route 4 exit room.
 - The static Mewtwo in Silver Cave.
 - The static Celebi at the Ilex Forest shrine.
+- The new wild levels and evolved wild slots, mainly in Kanto.
+- The evolved trainer teams, especially Crobat, Gyarados, and other early evolutions.
 - The Mew reward: the scientist's news on catching the last Unown, and the encounter in the lower hall.

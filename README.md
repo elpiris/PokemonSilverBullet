@@ -10,7 +10,8 @@ No ROMs are included. You build one yourself from this source.
 
 - **No trade evolutions:** every trade evolution now happens by level. Slowking needs a held King's Rock at Lv37, so Slowpoke's choice between Slowbro and Slowking stays with the player.
 - **Johto bosses:** gym leaders, rival fights, Rocket executives, the Elite Four, and Lance have new levels, teams, and moves, so the challenge climbs with the story.
-- **Regular trainers:** levels are raised by area to sit closer to the next boss. Species and movesets aren't updated yet, so some Pokémon are past their usual evolution level.
+- **Regular trainers:** levels are raised by area to sit closer to the next boss, and their Pokémon are evolved and their moves updated to match.
+- **Wild Pokémon:** levels are raised where they sat far below the local trainers, mostly in Kanto, and slots now evolve by level.
 - **Battle AI:** bosses and Cooltrainers now favor super effective moves.
 - **Availability:** all 251 Pokémon can be obtained on one save. Gold-only Pokémon are now in Silver, rare and late Pokémon are easier to find, evolution stones are pickups around the world and sold late in Celadon, after the league you can get the other two Johto starters in New Bark Town, Prof. Oak gives out the Kanto starters as you earn badges, solving Ruins of Alph puzzles earns Kabuto and Omanyte, and the three legendary birds wait as one-time encounters in Rock Tunnel, Victory Road, and Mt. Moon, with Mewtwo deep in Silver Cave. Catching all 26 Unown now makes Mew appear in the Ruins of Alph, and Celebi waits at the Ilex Forest shrine for a trainer with all 16 badges.
 

@@ -1335,7 +1335,8 @@
 	const EVENT_VICTORY_ROAD_MOLTRES
 	const EVENT_FOUGHT_MOLTRES
 	const EVENT_MOUNT_MOON_ARTICUNO
-; Unused: next 105 events
+	const EVENT_SILVER_CAVE_MEWTWO
+; Unused: next 104 events
 
 	const_next 2048
 DEF NUM_EVENTS EQU const_value ; 800

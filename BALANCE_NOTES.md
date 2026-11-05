@@ -226,6 +226,14 @@ Each bird is a one-time static encounter at the end of a Kanto dungeon that had 
 
 Lv50 matches the birds in Gen 1 and sits just under the Kanto leaders' target levels.
 
+### Late legendaries
+
+These are one-time static encounters too, available only in the late game.
+
+| Pokémon | Level | Where | Why |
+|---|---|---|---|
+| Mewtwo | 70 | Silver Cave, the east end of the far item room | Silver Cave only opens at 16 badges, and this is its deepest point, past Surf and Waterfall and off the path to Red. Lv70 matches Gen 1 and sits under Red's target level. The room's Full Restore is right beside it, and you don't have to beat Red first |
+
 ## To do
 
 Remaining work is tracked in [TODO.md](TODO.md).

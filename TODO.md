@@ -4,11 +4,11 @@ The current plan, in order. Each topic is proposed and approved before any game 
 
 ## 1. Catchable Pokémon and better Gen 2 availability
 
-Goal: all 251 on one save, with as few code changes as possible. Done so far: Gold-only Pokémon, rare and late Pokémon, evolution stones, Johto starters, Kanto starters, fossils, and the three legendary birds.
+Goal: all 251 on one save, with as few code changes as possible. Done so far: Gold-only Pokémon, rare and late Pokémon, evolution stones, Johto starters, Kanto starters, fossils, the three legendary birds, and Mewtwo.
 
 Still to propose, one at a time:
 
-- Mewtwo, Mew, and Celebi, as static final prizes in the late game.
+- Mew and Celebi, as static final prizes in the late game.
 
 Also open:
 
@@ -48,3 +48,4 @@ Only booting has been confirmed so far. These still need testing in-game:
 - The starter gifts from Elm and Oak, and the New Bark Town rival fight.
 - The fossil gifts in the Research Center.
 - The static birds: Zapdos in Rock Tunnel, Moltres in Victory Road after the league, and Articuno in the Mt. Moon pocket, including whether it can be seen from the Route 4 exit room.
+- The static Mewtwo in Silver Cave.

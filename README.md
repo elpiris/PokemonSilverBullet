@@ -12,7 +12,7 @@ No ROMs are included. You build one yourself from this source.
 - **Johto bosses:** gym leaders, rival fights, Rocket executives, the Elite Four, and Lance have new levels, teams, and moves, so the challenge climbs with the story.
 - **Regular trainers:** levels are raised by area to sit closer to the next boss. Species and movesets aren't updated yet, so some Pokémon are past their usual evolution level.
 - **Battle AI:** bosses and Cooltrainers now favor super effective moves.
-- **Availability (in progress):** Gold-only Pokémon are now in Silver, rare and late Pokémon are easier to find, evolution stones are pickups around the world and sold late in Celadon, after the league you can get the other two Johto starters in New Bark Town, Prof. Oak gives out the Kanto starters as you earn badges, solving Ruins of Alph puzzles earns Kabuto and Omanyte, and the three legendary birds wait as one-time encounters in Rock Tunnel, Victory Road, and Mt. Moon.
+- **Availability (in progress):** Gold-only Pokémon are now in Silver, rare and late Pokémon are easier to find, evolution stones are pickups around the world and sold late in Celadon, after the league you can get the other two Johto starters in New Bark Town, Prof. Oak gives out the Kanto starters as you earn badges, solving Ruins of Alph puzzles earns Kabuto and Omanyte, and the three legendary birds wait as one-time encounters in Rock Tunnel, Victory Road, and Mt. Moon, with Mewtwo deep in Silver Cave.
 
 Kanto is unfinished: its leaders still have their original teams.
 

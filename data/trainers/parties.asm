@@ -662,9 +662,9 @@ LassGroup:
 
 	; LASS (3)
 	db "ALICE@", TRAINERTYPE_NORMAL
-	db 30, VILEPLUME
-	db 34, ARBOK
-	db 30, VILEPLUME
+	db 45, VILEPLUME
+	db 46, ARBOK
+	db 45, VILEPLUME
 	db -1 ; end
 
 	; LASS (4)
@@ -680,9 +680,9 @@ LassGroup:
 
 	; LASS (6)
 	db "LINDA@", TRAINERTYPE_NORMAL
-	db 30, IVYSAUR
-	db 32, VENUSAUR
-	db 34, VENUSAUR
+	db 45, VENUSAUR
+	db 45, VENUSAUR
+	db 46, VENUSAUR
 	db -1 ; end
 
 	; LASS (7)
@@ -701,9 +701,9 @@ LassGroup:
 
 	; LASS (9)
 	db "MICHELLE@", TRAINERTYPE_NORMAL
-	db 32, JUMPLUFF
-	db 33, JUMPLUFF
-	db 34, JUMPLUFF
+	db 47, JUMPLUFF
+	db 47, JUMPLUFF
+	db 48, JUMPLUFF
 	db -1 ; end
 
 	; LASS (10)
@@ -1074,9 +1074,9 @@ BeautyGroup:
 
 	; BEAUTY (14)
 	db "JULIA@", TRAINERTYPE_NORMAL
-	db 32, PARASECT
-	db 32, EXEGGUTOR
-	db 35, PARASECT
+	db 47, PARASECT
+	db 47, EXEGGUTOR
+	db 48, PARASECT
 	db -1 ; end
 
 	; BEAUTY (15)
@@ -1369,8 +1369,9 @@ GentlemanGroup:
 
 	; GENTLEMAN (3)
 	db "GREGORY@", TRAINERTYPE_NORMAL
-	db 37, RAICHU
-	db 33, AMPHAROS
+	db 46, ELECTABUZZ
+	db 48, RAICHU
+	db 46, AMPHAROS
 	db -1 ; end
 
 	; GENTLEMAN (4)
@@ -1790,9 +1791,9 @@ SwimmerMGroup:
 
 	; SWIMMERM (21)
 	db "PARKER@", TRAINERTYPE_NORMAL
-	db 32, SEADRA
-	db 32, SEADRA
-	db 35, SEADRA
+	db 48, KINGDRA
+	db 48, KINGDRA
+	db 49, KINGDRA
 	db -1 ; end
 
 SwimmerFGroup:
@@ -1895,13 +1896,16 @@ SwimmerFGroup:
 
 	; SWIMMERF (18)
 	db "DIANA@", TRAINERTYPE_NORMAL
-	db 37, GOLDUCK
+	db 48, KINGLER
+	db 49, POLIWRATH
+	db 50, GOLDUCK
 	db -1 ; end
 
 	; SWIMMERF (19)
 	db "BRIANA@", TRAINERTYPE_NORMAL
-	db 35, SEAKING
-	db 35, SEAKING
+	db 48, CLOYSTER
+	db 49, SEAKING
+	db 49, SEAKING
 	db -1 ; end
 
 SailorGroup:
@@ -2123,10 +2127,10 @@ GuitaristGroup:
 
 	; GUITARIST (2)
 	db "VINCENT@", TRAINERTYPE_NORMAL
-	db 27, MAGNEMITE
-	db 33, ELECTRODE
-	db 32, MAGNETON
-	db 32, MAGNETON
+	db 46, MAGNETON
+	db 46, ELECTRODE
+	db 46, MAGNETON
+	db 46, MAGNETON
 	db -1 ; end
 
 HikerGroup:
@@ -2417,10 +2421,10 @@ JugglerGroup:
 
 	; JUGGLER (3)
 	db "HORTON@", TRAINERTYPE_NORMAL
-	db 33, ELECTRODE
-	db 33, ELECTRODE
-	db 33, ELECTRODE
-	db 33, ELECTRODE
+	db 46, ELECTRODE
+	db 46, ELECTRODE
+	db 46, ELECTRODE
+	db 46, ELECTRODE
 	db -1 ; end
 
 	; JUGGLER (4)
@@ -2535,7 +2539,9 @@ PsychicGroup:
 
 	; PSYCHIC_T (2)
 	db "FRANKLIN@", TRAINERTYPE_NORMAL
-	db 37, ALAKAZAM
+	db 48, HYPNO
+	db 49, SLOWBRO
+	db 50, ALAKAZAM
 	db -1 ; end
 
 	; PSYCHIC_T (3)
@@ -2588,9 +2594,9 @@ PsychicGroup:
 
 	; PSYCHIC_T (11)
 	db "JARED@", TRAINERTYPE_NORMAL
-	db 32, MR__MIME
-	db 32, EXEGGUTOR
-	db 35, EXEGGUTOR
+	db 48, MR__MIME
+	db 48, EXEGGUTOR
+	db 49, EXEGGUTOR
 	db -1 ; end
 
 	; PSYCHIC_T (12)
@@ -2624,7 +2630,9 @@ PicnickerGroup:
 
 	; PICNICKER (5)
 	db "CINDY@", TRAINERTYPE_NORMAL
-	db 36, NIDOQUEEN
+	db 45, ARBOK
+	db 46, ARIADOS
+	db 47, NIDOQUEEN
 	db -1 ; end
 
 	; PICNICKER (6)
@@ -2706,7 +2714,9 @@ PicnickerGroup:
 
 	; PICNICKER (19)
 	db "TANYA@", TRAINERTYPE_NORMAL
-	db 37, EXEGGUTOR
+	db 47, TANGELA
+	db 48, SUNFLORA
+	db 49, EXEGGUTOR
 	db -1 ; end
 
 	; PICNICKER (20)
@@ -2746,7 +2756,9 @@ CamperGroup:
 
 	; CAMPER (5)
 	db "BARRY@", TRAINERTYPE_NORMAL
-	db 36, NIDOKING
+	db 45, WEEZING
+	db 46, CROBAT
+	db 47, NIDOKING
 	db -1 ; end
 
 	; CAMPER (6)
@@ -2830,7 +2842,9 @@ CamperGroup:
 
 	; CAMPER (18)
 	db "JERRY@", TRAINERTYPE_NORMAL
-	db 37, SANDSLASH
+	db 46, GOLEM
+	db 47, RHYDON
+	db 48, SANDSLASH
 	db -1 ; end
 
 	; CAMPER (19)
@@ -2945,14 +2959,16 @@ MediumGroup:
 
 	; MEDIUM (6)
 	db "REBECCA@", TRAINERTYPE_NORMAL
-	db 35, HYPNO
-	db 35, HYPNO
+	db 48, JYNX
+	db 49, HYPNO
+	db 49, HYPNO
 	db -1 ; end
 
 	; MEDIUM (7)
 	db "DORIS@", TRAINERTYPE_NORMAL
-	db 34, SLOWPOKE
-	db 36, SLOWBRO
+	db 48, XATU
+	db 49, SLOWBRO
+	db 50, SLOWBRO
 	db -1 ; end
 
 BoarderGroup:
@@ -3108,14 +3124,16 @@ TwinsGroup:
 
 	; TWINS (5)
 	db "JO & ZOE@", TRAINERTYPE_NORMAL
-	db 35, VICTREEBEL
-	db 35, VILEPLUME
+	db 47, BELLOSSOM
+	db 48, VICTREEBEL
+	db 48, VILEPLUME
 	db -1 ; end
 
 	; TWINS (6)
 	db "JO & ZOE@", TRAINERTYPE_NORMAL
-	db 35, VILEPLUME
-	db 35, VICTREEBEL
+	db 47, BELLOSSOM
+	db 48, VILEPLUME
+	db 48, VICTREEBEL
 	db -1 ; end
 
 	; TWINS (7)

@@ -107,8 +107,7 @@ Other cases:
 
 - Phone rematches go up with their level: +2 up to Lv12, +4 up to Lv20, +6 up to Lv30, and +8 above that.
 - The Route 34 Cooltrainers and Ruins of Alph trainers get +2, and Kiyo in Mt. Mortar gets +2.
-- Unchanged: Route 46, the Kanto gyms (these stay with their leaders until the Kanto to-do), Trainer House, and unused parties.
-- Until the Kanto leaders are done, some Kanto route trainers (up to Lv48) are above vanilla leaders such as Janine (39).
+- Unchanged: Route 46, Trainer House, and unused parties. The Kanto gyms have their own section below.
 
 ## Difficulty: battle AI
 
@@ -298,6 +297,21 @@ Kanto leaders can be fought in any order, so they share a narrow range. Each has
 | Misty | 42-47, 4 Pokémon | 53-56 | Cloyster and Vaporeon join. Quagsire handles Electric types, and Ice moves handle Grass types. Psychic on Golduck and Ice Beam on Starmie come from her original team |
 | Sabrina | 46-48, 3 Pokémon | 53-56 | Hypno, Xatu, and Slowbro join. Swift, Night Shade, Headbutt, and Alakazam's Fire Punch answer Dark and Steel types |
 | Blaine | 45-50, 3 Pokémon | 55-58 | Houndoom, Flareon, and Ninetales join, and Rapidash stays his ace. Magmar's ThunderPunch is his only answer to Water types. Sunny Day on Houndoom, Ninetales, and Rapidash powers up his Fire moves. Houndoom also has SolarBeam, the only one of his team that can learn it, which answers Water and Ground types. Quick Attack on Rapidash comes from his original team |
+
+## Kanto gym trainers
+
+Every gym trainer sits 3 to 5 levels below the leader's lowest Pokémon and has at least 3 Pokémon. One level means little at this stage, so this keeps a clear step up to the leader. They evolve by the regular trainer rules, and their moves are automatic.
+
+| Gym | Was | Now | Leader |
+|---|---|---|---|
+| Fuchsia | 30-36 | 45-47 | Janine 50-54 |
+| Pewter | 37 | 46-48 | Brock 51-54 |
+| Vermilion | 27-37 | 46-48 | Lt. Surge 51-54 |
+| Celadon | 32-37 | 47-49 | Erika 52-55 |
+| Cerulean | 32-37 | 48-50 | Misty 53-56 |
+| Saffron | 32-37 | 48-50 | Sabrina 53-56 |
+
+Added Pokémon, all of the gym's type: Jerry gets Golem and Rhydon, Diana gets Kingler and Poliwrath, Briana gets Cloyster, Gregory gets Electabuzz, Tanya gets Tangela and Sunflora, Jo and Zoe get Bellossom, Cindy gets Arbok and Ariados, Barry gets Weezing and Crobat, Rebecca gets Jynx, Doris gets Xatu, and Franklin gets Hypno and Slowbro.
 
 ## Rival, Blue, and Red
 

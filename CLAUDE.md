@@ -8,7 +8,7 @@ Pokémon should be obtainable on one cartridge.
 ## Current state
 - Done: level-based trade evolutions, Johto boss teams, regular trainer levels, type awareness
   for the boss AI, all 251 Pokémon obtainable on one save, wild levels, evolved regular trainers, the Kanto fights, and buffs for extreme cases. `BALANCE_NOTES.md` has every change and its reason.
-- Next: see `TODO.md`. The ordered plan is done, so what remains is testing.
+- Next: I'm playtesting. Adjustments I report go in `TODO.md` and get made in batches.
 - Most of this hasn't been played, so don't describe a change as tested unless I've reported it.
 
 ## Hard constraints
@@ -46,6 +46,8 @@ Pokémon should be obtainable on one cartridge.
 3. Apply approved changes in small batches: one commit per batch with a clear message.
 4. Rebuild with `make silver` after each batch and make sure the build succeeds.
 5. Keep `BALANCE_NOTES.md` updated with every change and its reasoning, and `TODO.md` with the plan.
+6. Playtest adjustments: when I report something from playing, add it to "Playtest adjustments" in `TODO.md`
+   without changing game files. We tackle them together in batches when I ask, and no batch needs its own release.
 
 ## Balance guidelines
 - Bosses: team size grows from 3 to 6 over the game, level-up moves come first with TMs only where

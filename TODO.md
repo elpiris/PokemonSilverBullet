@@ -1,24 +1,12 @@
 # To do
 
-The current plan, in order. Each topic is proposed and approved before any game file changes.
+The planned balance work is finished: availability, trainer evolutions and movesets, Kanto, the full trainer level pass, and weak Pokémon. `BALANCE_NOTES.md` lists every change.
 
-## 1. Catchable Pokémon and better Gen 2 availability
+## Playtest adjustments
 
-All 251 are now obtainable on one save, with as few code changes as possible. Done: Gold-only Pokémon, rare and late Pokémon, evolution stones, Johto starters, Kanto starters, fossils, the three legendary birds, Mewtwo, Mew, and Celebi.
+Small changes that come up while playing go here, and get made in batches. Each batch gets its commit and a rebuild, but no release of its own.
 
-Wild levels are done too. See `BALANCE_NOTES.md`.
-
-## 2. Trainer evolutions and movesets
-
-Done.
-
-## 3. Finish Kanto
-
-Done: the Kanto leaders and gym trainers, the later rival fights, Blue, Red, and a full pass on trainer levels. `python tools/audit_trainers.py` repeats the check.
-
-## 4. Clearly unusable Pokémon
-
-Done: stats and moves for the outrageous cases, mostly Gen 2. `BALANCE_NOTES.md` lists them.
+Nothing yet.
 
 ## Testing
 

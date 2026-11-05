@@ -36,7 +36,7 @@ None
 | 159 | CROCONAW | Before Falkner | Evolve TOTODILE | - | Yes |
 | 160 | FERALIGATR | Before Falkner | Evolve CROCONAW | - | Yes |
 | 161 | SENTRET | Before Falkner | Grass | Before Falkner: 40%, Grass, ROUTE_29 | Yes |
-| 162 | FURRET | Before Falkner | Evolve SENTRET | Kanto: 5%, Grass, ROUTE_1 | Yes |
+| 162 | FURRET | Before Falkner | Evolve SENTRET | Kanto: 25%, Grass, ROUTE_1 | Yes |
 | 163 | HOOTHOOT | Before Falkner | Grass | Before Falkner: 85%, Grass, ROUTE_29 | Yes |
 | 164 | NOCTOWL | Before Falkner | Evolve HOOTHOOT | Before Pryce: 20%, Grass, ROUTE_43 | Yes |
 | 165 | LEDYBA | Before Falkner | Grass | Before Falkner: 30%, Grass, ROUTE_30 | Yes |
@@ -54,16 +54,16 @@ None
 | 177 | NATU | Before Bugsy | Grass | Before Bugsy: 90%, Grass, RUINS_OF_ALPH_OUTSIDE | Yes |
 | 178 | XATU | Before Bugsy | Evolve NATU | - | Yes |
 | 179 | MAREEP | Before Bugsy | Grass | Before Bugsy: 20%, Grass, ROUTE_32 | Yes |
-| 180 | FLAAFFY | Before Bugsy | Evolve MAREEP | Before Pryce: 40%, Grass, ROUTE_43 | Yes |
+| 180 | FLAAFFY | Before Bugsy | Evolve MAREEP | Before Pryce: 50%, Grass, ROUTE_43 | Yes |
 | 181 | AMPHAROS | Before Bugsy | Evolve FLAAFFY | - | Yes |
 | 182 | BELLOSSOM | Before Whitney | Evolve GLOOM | - | Yes |
 | 183 | MARILL | Before Pryce | Grass swarm | Before Pryce: 11%, Grass, MOUNT_MORTAR_1F_OUTSIDE | Yes |
 | 184 | AZUMARILL | Before Pryce | Evolve MARILL | - | Yes |
 | 185 | SUDOWOODO | Before Morty | Static | - | Yes |
-| 186 | POLITOED | Before Bugsy | Evolve POLIWHIRL | - | Yes |
+| 186 | POLITOED | Before Bugsy | Evolve POLIWHIRL | After Kanto: 100%, Surf, SILVER_CAVE_OUTSIDE | Yes |
 | 187 | HOPPIP | Before Bugsy | Grass | Before Bugsy: 35%, Grass, ROUTE_33 | Yes |
-| 188 | SKIPLOOM | Before Bugsy | Evolve HOPPIP | Kanto: 5%, Grass, ROUTE_14 | Yes |
-| 189 | JUMPLUFF | Before Bugsy | Evolve SKIPLOOM | - | Yes |
+| 188 | SKIPLOOM | Before Bugsy | Evolve HOPPIP | Kanto: 10%, Grass, ROUTE_13 | Yes |
+| 189 | JUMPLUFF | Before Bugsy | Evolve SKIPLOOM | Kanto: 15%, Grass, ROUTE_14 | Yes |
 | 190 | AIPOM | Before Whitney | Headbutt | Before Whitney: 20%, Headbutt, ROUTE_29 | Yes |
 | 191 | SUNKERN | Before Whitney | Grass | Before Whitney: 25%, Grass, NATIONAL_PARK | Yes |
 | 192 | SUNFLORA | Before Whitney | Evolve SUNKERN | - | Yes |
@@ -82,7 +82,7 @@ None
 | 205 | FORRETRESS | Before Whitney | Evolve PINECO | - | Yes |
 | 206 | DUNSPARCE | Before Falkner | Grass swarm | Before Falkner: 5%, Grass, DARK_CAVE_VIOLET_ENTRANCE | Yes |
 | 207 | GLIGAR | Before Clair | Grass | Before Clair: 20%, Grass, ROUTE_45 | Yes |
-| 208 | STEELIX | Before Falkner | Evolve ONIX | - | Yes |
+| 208 | STEELIX | Before Falkner | Evolve ONIX | After Kanto: 30%, Grass, SILVER_CAVE_ROOM_1 | Yes |
 | 209 | SNUBBULL | Before Pryce | Grass | Before Pryce: 31%, Grass, ROUTE_38 | Yes |
 | 210 | GRANBULL | Before Pryce | Evolve SNUBBULL | - | Yes |
 | 211 | QWILFISH | Before Pryce | Fish (Good Rod) | Before Pryce: 10%, Fish (Good Rod), ROUTE_32 | Yes |
@@ -145,14 +145,14 @@ None
 | 12 | BUTTERFREE | Before Whitney | Bug Contest | Before Whitney: 5%, Bug Contest, National Park | Yes |
 | 13 | WEEDLE | Before Falkner | Grass | Before Falkner: 50%, Grass, ROUTE_30 | Yes |
 | 14 | KAKUNA | Before Falkner | Grass | Before Falkner: 15%, Grass, ROUTE_30 | Yes |
-| 15 | BEEDRILL | Before Falkner | Evolve KAKUNA | Before Whitney: 5%, Headbutt, ROUTE_34 | Yes |
+| 15 | BEEDRILL | Before Falkner | Evolve KAKUNA | Before Whitney: 80%, Grass, NATIONAL_PARK | Yes |
 | 16 | PIDGEY | Before Falkner | Grass | Before Falkner: 55%, Grass, ROUTE_29 | Yes |
 | 17 | PIDGEOTTO | Before Falkner | Evolve PIDGEY | Before Morty: 5%, Grass, ROUTE_37 | Yes |
 | 18 | PIDGEOT | Before Falkner | Evolve PIDGEOTTO | - | Yes |
 | 19 | RATTATA | Before Falkner | Grass | Before Falkner: 100%, Grass, SPROUT_TOWER_2F | Yes |
 | 20 | RATICATE | Before Falkner | Evolve RATTATA | Before Morty: 5%, Grass, BURNED_TOWER_1F | Yes |
 | 21 | SPEAROW | Before Falkner | Grass | Before Falkner: 35%, Grass, ROUTE_46 | Yes |
-| 22 | FEAROW | Before Falkner | Evolve SPEAROW | Kanto: 40%, Grass, ROUTE_16 | Yes |
+| 22 | FEAROW | Before Falkner | Evolve SPEAROW | Kanto: 55%, Grass, ROUTE_9 | Yes |
 | 23 | EKANS | Before Bugsy | Grass | Before Bugsy: 30%, Grass, ROUTE_32 | Yes |
 | 24 | ARBOK | Before Bugsy | Evolve EKANS | Before Elite Four: 30%, Grass, ROUTE_27 | Yes |
 | 25 | PIKACHU | Kanto | Grass | Kanto: 5%, Grass, ROUTE_2 | Yes |
@@ -172,9 +172,9 @@ None
 | 39 | JIGGLYPUFF | Before Falkner | Grass | Before Falkner: 5%, Grass, ROUTE_46 | Yes |
 | 40 | WIGGLYTUFF | Before Pryce | Evolve JIGGLYPUFF | - | Yes |
 | 41 | ZUBAT | Before Falkner | Grass | Before Falkner: 35%, Grass, DARK_CAVE_VIOLET_ENTRANCE | Yes |
-| 42 | GOLBAT | Before Falkner | Evolve ZUBAT | Before Pryce: 20%, Grass, UNION_CAVE_B2F | Yes |
+| 42 | GOLBAT | Before Falkner | Evolve ZUBAT | Before Pryce: 50%, Grass, UNION_CAVE_B2F | Yes |
 | 43 | ODDISH | Before Whitney | Grass | Before Whitney: 60%, Grass, ILEX_FOREST | Yes |
-| 44 | GLOOM | Before Whitney | Evolve ODDISH | Kanto: 10%, Grass, ROUTE_5 | Yes |
+| 44 | GLOOM | Before Whitney | Evolve ODDISH | Kanto: 40%, Grass, ROUTE_5 | Yes |
 | 45 | VILEPLUME | Before Whitney | Evolve GLOOM | - | Yes |
 | 46 | PARAS | Before Whitney | Grass | Before Whitney: 15%, Grass, ILEX_FOREST | Yes |
 | 47 | PARASECT | Before Whitney | Evolve PARAS | - | Yes |
@@ -191,24 +191,24 @@ None
 | 58 | GROWLITHE | Before Morty | Grass | Before Morty: 15%, Grass, ROUTE_37 | Yes |
 | 59 | ARCANINE | Before Morty | Evolve GROWLITHE | - | Yes |
 | 60 | POLIWAG | Before Bugsy | Fish (Old Rod) | Before Bugsy: 15%, Fish (Old Rod), VIOLET_CITY | Yes |
-| 61 | POLIWHIRL | Before Bugsy | Evolve POLIWAG | Before Pryce: 10%, Surf, ROUTE_30 | Yes |
+| 61 | POLIWHIRL | Before Bugsy | Evolve POLIWAG | Before Pryce: 70%, Surf, ROUTE_44 | Yes |
 | 62 | POLIWRATH | Before Pryce | Evolve POLIWHIRL | - | Yes |
 | 63 | ABRA | Before Whitney | Grass | Before Whitney: 10%, Grass, ROUTE_34 | Yes |
-| 64 | KADABRA | Before Whitney | Evolve ABRA | Kanto: 5%, Grass, ROUTE_8 | Yes |
+| 64 | KADABRA | Before Whitney | Evolve ABRA | Kanto: 25%, Grass, ROUTE_8 | Yes |
 | 65 | ALAKAZAM | Before Whitney | Evolve KADABRA | - | Yes |
 | 66 | MACHOP | Before Whitney | Trade DROWZEE | Before Pryce: 35%, Grass, MOUNT_MORTAR_1F_INSIDE | Yes |
-| 67 | MACHOKE | Before Whitney | Evolve MACHOP | Before Pryce: 30%, Grass, MOUNT_MORTAR_2F_INSIDE | Yes |
+| 67 | MACHOKE | Before Whitney | Evolve MACHOP | Before Pryce: 35%, Grass, MOUNT_MORTAR_2F_INSIDE | Yes |
 | 68 | MACHAMP | Before Whitney | Evolve MACHOKE | - | Yes |
 | 69 | BELLSPROUT | Before Falkner | Grass | Before Falkner: 20%, Grass, ROUTE_31 | Yes |
-| 70 | WEEPINBELL | Before Falkner | Evolve BELLSPROUT | Before Pryce: 35%, Grass, ROUTE_44 | Yes |
+| 70 | WEEPINBELL | Before Falkner | Evolve BELLSPROUT | Before Pryce: 55%, Grass, ROUTE_44 | Yes |
 | 71 | VICTREEBEL | Before Whitney | Evolve WEEPINBELL | - | Yes |
 | 72 | TENTACOOL | Before Bugsy | Fish (Old Rod) | Before Bugsy: 15%, Fish (Old Rod), NEW_BARK_TOWN | Yes |
 | 73 | TENTACRUEL | Before Bugsy | Evolve TENTACOOL | Before Pryce: 30%, Surf, ROUTE_41 | Yes |
 | 74 | GEODUDE | Before Falkner | Grass | Before Falkner: 60%, Grass, DARK_CAVE_VIOLET_ENTRANCE | Yes |
-| 75 | GRAVELER | Before Falkner | Evolve GEODUDE | Before Pryce: 30%, Grass, MOUNT_MORTAR_2F_INSIDE | Yes |
-| 76 | GOLEM | Before Falkner | Evolve GRAVELER | - | Yes |
+| 75 | GRAVELER | Before Falkner | Evolve GEODUDE | Before Pryce: 50%, Grass, MOUNT_MORTAR_2F_INSIDE | Yes |
+| 76 | GOLEM | Before Falkner | Evolve GRAVELER | After Kanto: 30%, Grass, SILVER_CAVE_ROOM_1 | Yes |
 | 77 | PONYTA | Before Elite Four | Grass | Before Elite Four: 20%, Grass, ROUTE_26 | Yes |
-| 78 | RAPIDASH | Before Elite Four | Evolve PONYTA | After Kanto: 10%, Grass, SILVER_CAVE_OUTSIDE | Yes |
+| 78 | RAPIDASH | Before Elite Four | Evolve PONYTA | After Kanto: 40%, Grass, SILVER_CAVE_OUTSIDE | Yes |
 | 79 | SLOWPOKE | Before Bugsy | Grass | Before Bugsy: 15%, Grass, SLOWPOKE_WELL_B1F | Yes |
 | 80 | SLOWBRO | Before Bugsy | Evolve SLOWPOKE | Before Pryce: 10%, Surf, SLOWPOKE_WELL_B2F | Yes |
 | 81 | MAGNEMITE | Before Pryce | Grass | Before Pryce: 20%, Grass, ROUTE_38 | Yes |

@@ -285,6 +285,16 @@ Where a Pokémon has more than one option, it takes the first one in its data. A
 
 Most regular trainers use automatic moves, which already follow level and species. For the ones with hand-written moves, TMs and signature moves stay. Gaps are filled, and up to two older level-up moves are swapped for newer ones, but never a stronger attack for a weaker move.
 
+## Kanto leaders
+
+Kanto leaders can be fought in any order, so they share a narrow range. Each has six Pokémon.
+
+| Leader | Was | Now | Notes |
+|---|---|---|---|
+| Brock | 41-44, 5 Pokémon | 51-54 | Onix becomes Steelix as the ace, and Aerodactyl joins. Rock Slide isn't learnable in this game, but his original team used it, and he needs Rock attacks |
+| Janine | 33-39, 5 Pokémon | 50-54 | Biggest jump. Muk and Tentacruel replace her second Weezing, and Crobat is her ace |
+| Lt. Surge | 40-46, 5 Pokémon | 51-54 | Ampharos and Jolteon replace his second Electrode. Raichu has Surf, a nod to Pokémon Yellow, and Ampharos has Ice Punch, so Ground types can't wall him |
+
 ## To do
 
 Remaining work is tracked in [TODO.md](TODO.md).

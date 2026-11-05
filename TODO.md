@@ -15,7 +15,6 @@ Done for regular trainers. The Kanto leaders, Blue, and Red still need theirs in
 ## 3. Finish Kanto
 
 - Leaders, with these target top levels:
-  - Janine, Brock, and Lt. Surge: 54
   - Erika: 55
   - Misty and Sabrina: 56
   - Blaine: 58

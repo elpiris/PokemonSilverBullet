@@ -268,8 +268,8 @@ None
 | 135 | JOLTEON | Before Pryce | Evolve EEVEE | - | Yes |
 | 136 | FLAREON | Before Morty | Evolve EEVEE | - | Yes |
 | 137 | PORYGON | Kanto | Prize | - | Yes |
-| 138 | OMANYTE | Before Bugsy | Gift | - | Yes |
-| 139 | OMASTAR | Before Bugsy | Evolve OMANYTE | - | Yes |
+| 138 | OMANYTE | Before Pryce | Gift | - | Yes |
+| 139 | OMASTAR | Before Pryce | Evolve OMANYTE | - | Yes |
 | 140 | KABUTO | Before Bugsy | Gift | - | Yes |
 | 141 | KABUTOPS | Before Bugsy | Evolve KABUTO | - | Yes |
 | 142 | AERODACTYL | Kanto | Trade CHANSEY | - | Yes |

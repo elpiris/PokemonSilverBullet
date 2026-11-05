@@ -212,7 +212,7 @@ Solving a Ruins of Alph wall puzzle now also earns a revived fossil Pokémon. A 
 | Kabuto chamber | Kabuto |
 | Omanyte chamber | Omanyte |
 
-Both chambers can be reached without Surf, so these gifts can come very early. That's fine because both evolve only at Lv40, so they stay modest until the mid-game. It also gives players a reason to solve the puzzles on their first visit. After a gift, the scientist points you to the other puzzle, or tells you to talk again if you've already solved it. A full party means the gift waits.
+The Kabuto chamber can be reached without Surf, so Kabuto can come very early. The Omanyte chamber is reached through Union Cave and needs Surf, so Omanyte comes later. That's fine because both evolve only at Lv40, so they stay modest until the mid-game. It also gives players a reason to solve the puzzles on their first visit. After a gift, the scientist points you to the other puzzle, or tells you to talk again if you've already solved it. A full party means the gift waits.
 
 ### Legendary birds
 
@@ -238,7 +238,7 @@ These are one-time static encounters too, available only in the late game.
 
 Mew is the reward for catching all 26 Unown, which used to earn little more than a printer. It's a one-time Lv30 static encounter at the bottom of the Inner Chamber's lower hall, around (9, 25), reached by dropping through a solved chamber's floor.
 
-All 26 forms need all four puzzles solved, and the Aerodactyl chamber needs Surf, so Mew can come as soon as the player has Surf and the patience. There's no badge gate, which is why it's Lv30, unlike the other legendaries.
+All 26 forms need all four puzzles solved. Only the Kabuto chamber can be reached without Surf, so Mew can come as soon as the player has Surf and the patience. There's no badge gate, which is why it's Lv30, unlike the other legendaries.
 
 When you leave the Inner Chamber after catching the last Unown, a scientist stops you outside and says where to look. The Research Center scientist repeats the hint until you've fought Mew. The Unown count only changes when you catch one, so seeing them isn't enough.
 

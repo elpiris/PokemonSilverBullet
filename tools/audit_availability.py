@@ -50,7 +50,7 @@ SINGLE_SOURCES = [
     ("BULBASAUR", KANTO, "Gift", "Oak"), ("CHARMANDER", KANTO, "Gift", "Oak, 12 badges"),
     ("SQUIRTLE", KANTO, "Gift", "Oak, 16 badges"),
     ("KABUTO", BUGSY, "Gift", "Research Center, Kabuto puzzle"),
-    ("OMANYTE", BUGSY, "Gift", "Research Center, Omanyte puzzle"),
+    ("OMANYTE", SURF_STAGE, "Gift", "Research Center, Omanyte puzzle"),
     ("ZAPDOS", KANTO, "Static", "Rock Tunnel 1F"), ("MOLTRES", KANTO, "Static", "Victory Road, after the league"),
     ("ARTICUNO", KANTO, "Static", "Mt. Moon, hidden pocket"),
     ("MEWTWO", LATE, "Static", "Silver Cave, far item room"),

@@ -1339,7 +1339,8 @@
 	const EVENT_RUINS_OF_ALPH_INNER_CHAMBER_MEW
 	const EVENT_FOUGHT_MEW
 	const EVENT_HEARD_ABOUT_MEW_IN_RUINS
-; Unused: next 101 events
+	const EVENT_FOUGHT_CELEBI
+; Unused: next 100 events
 
 	const_next 2048
 DEF NUM_EVENTS EQU const_value ; 800

@@ -205,12 +205,12 @@ After each gift, he tells you to come back when you have the next badge count, s
 
 ### Fossils
 
-Solving a Ruins of Alph wall puzzle now also earns a revived fossil Pokémon. A scientist in the Research Center gives it at Lv10, with no held item, one per conversation. The script is in `maps/RuinsOfAlphResearchCenter.asm`, using two new event flags, and the chambers themselves didn't change.
+Solving a Ruins of Alph wall puzzle now also earns a revived fossil Pokémon. A scientist in the Research Center gives it with no held item, one per conversation. The script is in `maps/RuinsOfAlphResearchCenter.asm`, using two new event flags, and the chambers themselves didn't change.
 
 | Puzzle solved | Pokémon |
 |---|---|
-| Kabuto chamber | Kabuto |
-| Omanyte chamber | Omanyte |
+| Kabuto chamber | Kabuto, Lv10 |
+| Omanyte chamber | Omanyte, Lv25, higher because it comes later |
 
 The Kabuto chamber can be reached without Surf, so Kabuto can come very early. The Omanyte chamber is reached through Union Cave and needs Surf, so Omanyte comes later. That's fine because both evolve only at Lv40, so they stay modest until the mid-game. It also gives players a reason to solve the puzzles on their first visit. After a gift, the scientist points you to the other puzzle, or tells you to talk again if you've already solved it. A full party means the gift waits.
 
@@ -233,6 +233,7 @@ These are one-time static encounters too, available only in the late game.
 | Pokémon | Level | Where | Why |
 |---|---|---|---|
 | Mewtwo | 70 | Silver Cave, the east end of the far item room | Silver Cave only opens at 16 badges, and this is its deepest point, past Surf and Waterfall and off the path to Red. Lv70 matches Gen 1 and sits under Red's target level. The room's Full Restore is right beside it, and you don't have to beat Red first |
+| Celebi | 60 | Ilex Forest shrine, by reading it with all 16 badges | The shrine honors the forest's protector. Before 16 badges, its text adds a hint that it's waiting for a trainer with every badge. It sits between the birds and Mewtwo in level |
 
 ### Mew
 

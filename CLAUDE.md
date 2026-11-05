@@ -6,8 +6,8 @@ The challenge should climb steadily from the first leader to Red, with no platea
 Pokémon should be obtainable on one cartridge.
 
 ## Current state
-- Done: level-based trade evolutions, Johto boss teams, regular trainer levels, and type awareness
-  for the boss AI. `BALANCE_NOTES.md` has every change and its reason.
+- Done: level-based trade evolutions, Johto boss teams, regular trainer levels, type awareness
+  for the boss AI, and all 251 Pokémon obtainable on one save. `BALANCE_NOTES.md` has every change and its reason.
 - Next: see `TODO.md`, and work through it in order.
 - Most of this hasn't been played, so don't describe a change as tested unless I've reported it.
 

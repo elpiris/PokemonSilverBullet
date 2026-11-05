@@ -304,7 +304,29 @@ IlexForestSignpost:
 	jumptext IlexForestSignpostText
 
 IlexForestShrineScript:
+	checkevent EVENT_FOUGHT_CELEBI
+	iftrue .Empty
+	readvar VAR_BADGES
+	ifequal NUM_BADGES, .Celebi
+	jumptext Text_IlexForestShrineWaiting
+
+.Empty:
 	jumptext Text_IlexForestShrine
+
+.Celebi:
+	opentext
+	writetext Text_IlexForestShrine
+	promptbutton
+	writetext Text_IlexForestShrineCelebi
+	cry CELEBI
+	pause 15
+	closetext
+	setevent EVENT_FOUGHT_CELEBI
+	loadvar VAR_BATTLETYPE, BATTLETYPE_FORCEITEM
+	loadwildmon CELEBI, 60
+	startbattle
+	reloadmapafterbattle
+	end
 
 MovementData_Farfetchd_Pos1_Pos2:
 	big_step UP
@@ -654,6 +676,25 @@ Text_IlexForestShrine:
 	para "It's in honor of"
 	line "the forest's"
 	cont "protector…"
+	done
+
+Text_IlexForestShrineWaiting:
+	text "ILEX FOREST"
+	line "SHRINE…"
+
+	para "It's in honor of"
+	line "the forest's"
+	cont "protector…"
+
+	para "It seems to be"
+	line "waiting for a"
+	cont "TRAINER with every"
+	cont "BADGE."
+	done
+
+Text_IlexForestShrineCelebi:
+	text "Something stirs"
+	line "inside the shrine!"
 	done
 
 IlexForest_MapEvents:

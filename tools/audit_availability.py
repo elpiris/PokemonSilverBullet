@@ -55,6 +55,7 @@ SINGLE_SOURCES = [
     ("ARTICUNO", KANTO, "Static", "Mt. Moon, hidden pocket"),
     ("MEWTWO", LATE, "Static", "Silver Cave, far item room"),
     ("MEW", SURF_STAGE, "Static", "Ruins of Alph, after catching all 26 Unown"),
+    ("CELEBI", LATE, "Static", "Ilex Forest shrine, 16 badges"),
     ("TOGEPI", BUGSY, "Gift", "Mystery Egg"), ("EEVEE", WHITNEY, "Gift", "Bill's family"),
     ("TYROGUE", CLAIR, "Gift", "Kiyo, Mt. Mortar"), ("SUDOWOODO", MORTY, "Static", "Route 36"),
     ("GYARADOS", PRYCE, "Static", "Lake of Rage"), ("LAPRAS", PRYCE, "Static", "Union Cave, Fridays"),

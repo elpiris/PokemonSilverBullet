@@ -156,7 +156,7 @@ RuinsOfAlphResearchCenterScientist2Script:
 	playsound SFX_CAUGHT_MON
 	waitsfx
 	promptbutton
-	givepoke OMANYTE, 10
+	givepoke OMANYTE, 25
 	setevent EVENT_GOT_OMANYTE_FROM_RESEARCH_CENTER
 	checkevent EVENT_GOT_KABUTO_FROM_RESEARCH_CENTER
 	iftrue .Done

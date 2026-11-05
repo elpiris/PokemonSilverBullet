@@ -234,6 +234,14 @@ These are one-time static encounters too, available only in the late game.
 |---|---|---|---|
 | Mewtwo | 70 | Silver Cave, the east end of the far item room | Silver Cave only opens at 16 badges, and this is its deepest point, past Surf and Waterfall and off the path to Red. Lv70 matches Gen 1 and sits under Red's target level. The room's Full Restore is right beside it, and you don't have to beat Red first |
 
+### Mew
+
+Mew is the reward for catching all 26 Unown, which used to earn little more than a printer. It's a one-time Lv30 static encounter at the bottom of the Inner Chamber's lower hall, around (9, 25), reached by dropping through a solved chamber's floor.
+
+All 26 forms need all four puzzles solved, and the Aerodactyl chamber needs Surf, so Mew can come as soon as the player has Surf and the patience. There's no badge gate, which is why it's Lv30, unlike the other legendaries.
+
+When you leave the Inner Chamber after catching the last Unown, a scientist stops you outside and says where to look. The Research Center scientist repeats the hint until you've fought Mew. The Unown count only changes when you catch one, so seeing them isn't enough.
+
 ## To do
 
 Remaining work is tracked in [TODO.md](TODO.md).

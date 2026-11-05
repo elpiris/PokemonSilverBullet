@@ -2,6 +2,7 @@
 	const RUINSOFALPHINNERCHAMBER_FISHER
 	const RUINSOFALPHINNERCHAMBER_TEACHER
 	const RUINSOFALPHINNERCHAMBER_GRAMPS
+	const RUINSOFALPHINNERCHAMBER_MEW
 
 RuinsOfAlphInnerChamber_MapScripts:
 	def_scene_scripts
@@ -9,6 +10,35 @@ RuinsOfAlphInnerChamber_MapScripts:
 	scene_script RuinsOfAlphInnerChamberStrangePresenceScene, SCENE_RUINSOFALPHINNERCHAMBER_STRANGE_PRESENCE
 
 	def_callbacks
+	callback MAPCALLBACK_OBJECTS, RuinsOfAlphInnerChamberMewCallback
+
+RuinsOfAlphInnerChamberMewCallback:
+	checkevent EVENT_FOUGHT_MEW
+	iftrue .NoAppear
+	readvar VAR_UNOWNCOUNT
+	ifequal NUM_UNOWN, .Appear
+.NoAppear:
+	disappear RUINSOFALPHINNERCHAMBER_MEW
+	endcallback
+
+.Appear:
+	appear RUINSOFALPHINNERCHAMBER_MEW
+	endcallback
+
+RuinsOfAlphInnerChamberMew:
+	faceplayer
+	opentext
+	writetext RuinsOfAlphInnerChamberMewText
+	cry MEW
+	pause 15
+	closetext
+	setevent EVENT_FOUGHT_MEW
+	loadvar VAR_BATTLETYPE, BATTLETYPE_FORCEITEM
+	loadwildmon MEW, 30
+	startbattle
+	disappear RUINSOFALPHINNERCHAMBER_MEW
+	reloadmapafterbattle
+	end
 
 RuinsOfAlphInnerChamberNoopScene:
 	end
@@ -73,6 +103,10 @@ RuinsOfAlphInnerChamberStatueText:
 	cont "MON."
 	done
 
+RuinsOfAlphInnerChamberMewText:
+	text "Mew!"
+	done
+
 RuinsOfAlphInnerChamber_MapEvents:
 	db 0, 0 ; filler
 
@@ -121,3 +155,4 @@ RuinsOfAlphInnerChamber_MapEvents:
 	object_event  3,  7, SPRITE_FISHER, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, RuinsOfAlphInnerChamberFisherScript, EVENT_RUINS_OF_ALPH_INNER_CHAMBER_TOURISTS
 	object_event 14, 13, SPRITE_TEACHER, SPRITEMOVEDATA_WANDER, 1, 1, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, RuinsOfAlphInnerChamberTeacherScript, EVENT_RUINS_OF_ALPH_INNER_CHAMBER_TOURISTS
 	object_event 11, 19, SPRITE_GRAMPS, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, RuinsOfAlphInnerChamberGrampsScript, EVENT_RUINS_OF_ALPH_INNER_CHAMBER_TOURISTS
+	object_event  9, 25, SPRITE_FAIRY, SPRITEMOVEDATA_POKEMON, 0, 0, -1, -1, PAL_NPC_PINK, OBJECTTYPE_SCRIPT, 0, RuinsOfAlphInnerChamberMew, EVENT_RUINS_OF_ALPH_INNER_CHAMBER_MEW

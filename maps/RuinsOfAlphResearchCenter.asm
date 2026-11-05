@@ -69,6 +69,11 @@ RuinsOfAlphResearchCenterScientist3Script:
 
 .PrinterAvailable:
 	writetext RuinsOfAlphResearchCenterScientist3_PrinterAvailable
+	checkevent EVENT_FOUGHT_MEW
+	iftrue .PrinterDone
+	promptbutton
+	writetext RuinsOfAlphResearchCenterMewHintText
+.PrinterDone:
 	waitbutton
 	closetext
 	end
@@ -263,6 +268,15 @@ RuinsOfAlphResearchCenterScientist3Text:
 
 	para "Check to see how"
 	line "many kinds exist."
+	done
+
+RuinsOfAlphResearchCenterMewHintText:
+	text "Something stirs"
+	line "in the lower hall."
+
+	para "Drop through the"
+	line "OMANYTE chamber's"
+	cont "floor to find it."
 	done
 
 RuinsOfAlphResearchCenterScientist3_PrinterAvailable:

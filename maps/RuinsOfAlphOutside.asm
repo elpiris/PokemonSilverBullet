@@ -9,6 +9,7 @@ RuinsOfAlphOutside_MapScripts:
 	def_scene_scripts
 	scene_script RuinsOfAlphOutsideNoop1Scene, SCENE_RUINSOFALPHOUTSIDE_NOOP
 	scene_script RuinsOfAlphOutsideNoop2Scene, SCENE_RUINSOFALPHOUTSIDE_GET_UNOWN_DEX
+	scene_script RuinsOfAlphOutsideNoop3Scene, SCENE_RUINSOFALPHOUTSIDE_MEW_NEWS
 
 	def_callbacks
 	callback MAPCALLBACK_OBJECTS, RuinsOfAlphOutsideScientistCallback
@@ -19,9 +20,12 @@ RuinsOfAlphOutsideNoop1Scene:
 RuinsOfAlphOutsideNoop2Scene:
 	end
 
+RuinsOfAlphOutsideNoop3Scene:
+	end
+
 RuinsOfAlphOutsideScientistCallback:
 	checkflag ENGINE_UNOWN_DEX
-	iftrue .NoScientist
+	iftrue .MaybeMewNews
 	checkevent EVENT_MADE_UNOWN_APPEAR_IN_RUINS
 	iftrue .MaybeScientist
 	sjump .NoScientist
@@ -36,10 +40,39 @@ RuinsOfAlphOutsideScientistCallback:
 	setscene SCENE_RUINSOFALPHOUTSIDE_GET_UNOWN_DEX
 	endcallback
 
+.MaybeMewNews:
+	checkevent EVENT_HEARD_ABOUT_MEW_IN_RUINS
+	iftrue .NoScientist
+	readvar VAR_UNOWNCOUNT
+	ifequal NUM_UNOWN, .MewNews
 .NoScientist:
 	disappear RUINSOFALPHOUTSIDE_SCIENTIST
 	setscene SCENE_RUINSOFALPHOUTSIDE_NOOP
 	endcallback
+
+.MewNews:
+	appear RUINSOFALPHOUTSIDE_SCIENTIST
+	setscene SCENE_RUINSOFALPHOUTSIDE_MEW_NEWS
+	endcallback
+
+RuinsOfAlphOutsideMewNewsScene1:
+	turnobject RUINSOFALPHOUTSIDE_SCIENTIST, UP
+	turnobject PLAYER, DOWN
+	sjump RuinsOfAlphOutsideMewNewsContinue
+
+RuinsOfAlphOutsideMewNewsScene2:
+	turnobject RUINSOFALPHOUTSIDE_SCIENTIST, LEFT
+	turnobject PLAYER, RIGHT
+RuinsOfAlphOutsideMewNewsContinue:
+	opentext
+	writetext RuinsOfAlphOutsideMewNewsText
+	waitbutton
+	closetext
+	setevent EVENT_HEARD_ABOUT_MEW_IN_RUINS
+	setscene SCENE_RUINSOFALPHOUTSIDE_NOOP
+	applymovement RUINSOFALPHOUTSIDE_SCIENTIST, RuinsOfAlphOutsideScientistWalkToLabMovement
+	disappear RUINSOFALPHOUTSIDE_SCIENTIST
+	end
 
 RuinsOfAlphOutsideScientistScene1:
 	turnobject RUINSOFALPHOUTSIDE_SCIENTIST, UP
@@ -53,6 +86,8 @@ RuinsOfAlphOutsideScientistScene2:
 
 RuinsOfAlphOutsideScientistScript:
 	faceplayer
+	checkflag ENGINE_UNOWN_DEX
+	iftrue RuinsOfAlphOutsideMewNewsContinue
 RuinsOfAlphOutsideScientistSceneContinue:
 	opentext
 	writetext RuinsOfAlphOutsideScientistText
@@ -115,6 +150,26 @@ RuinsOfAlphOutsideScientistWalkToLabMovement:
 RuinsOfAlphOutsidePlayerEnterLabMovement:
 	step UP
 	step_end
+
+RuinsOfAlphOutsideMewNewsText:
+	text "Hold on, <PLAYER>!"
+
+	para "Our readings went"
+	line "wild when you got"
+	cont "the last UNOWN!"
+
+	para "Something is in"
+	line "the chamber's"
+	cont "lower hall."
+
+	para "Drop through the"
+	line "OMANYTE chamber's"
+	cont "floor to reach it."
+
+	para "And be ready. You"
+	line "may only get one"
+	cont "chance!"
+	done
 
 RuinsOfAlphOutsideScientistText:
 	text "Hm? That's a #-"
@@ -227,6 +282,8 @@ RuinsOfAlphOutside_MapEvents:
 	def_coord_events
 	coord_event 11, 14, SCENE_RUINSOFALPHOUTSIDE_GET_UNOWN_DEX, RuinsOfAlphOutsideScientistScene1
 	coord_event 10, 15, SCENE_RUINSOFALPHOUTSIDE_GET_UNOWN_DEX, RuinsOfAlphOutsideScientistScene2
+	coord_event 11, 14, SCENE_RUINSOFALPHOUTSIDE_MEW_NEWS, RuinsOfAlphOutsideMewNewsScene1
+	coord_event 10, 15, SCENE_RUINSOFALPHOUTSIDE_MEW_NEWS, RuinsOfAlphOutsideMewNewsScene2
 
 	def_bg_events
 	bg_event 16,  8, BGEVENT_READ, RuinsOfAlphOutsideMysteryChamberSign

@@ -13,7 +13,7 @@ These are the main changes. [BALANCE_NOTES.md](BALANCE_NOTES.md) has every chang
 ### Balance
 
 - **No trade evolutions:** every trade evolution now happens by level, such as Alakazam at Lv36, Gengar at Lv38, and Steelix at Lv40. Slowpoke becomes Slowking at Lv37 if it holds a King's Rock, and Slowbro otherwise, so the choice stays with the player.
-- **Boss teams:** every boss has a rebuilt team. Teams grow from 3 Pokémon at the first gym to 6 at the end, with better moves and coverage for the types that counter them. A few moves are ones the species can't normally learn, used on purpose. Lt. Surge's Raichu has Surf, for example.
+- **Boss teams:** every boss has better moves and coverage for the types that counter them, and most have new teams. Teams grow from 3 Pokémon at the first gym to 6 at the end. A few moves are ones the species can't normally learn, used on purpose. Lt. Surge's Raichu has Surf, for example.
 - **Regular trainers:** their Pokémon now evolve to fit their levels, and hand-written movesets were refreshed. Kanto gym trainers have at least 3 Pokémon each.
 - **Weak Pokémon:** a small group of outrageously weak Pokémon get better stats and level-up moves, and a clearer identity. They stay weak, but usable.
   - **Stats and moves:** Sneasel, Dunsparce, Ledian, Delibird, Yanma, Aipom, Ariados, Togetic, Farfetch'd, Lickitung, and Beedrill.
